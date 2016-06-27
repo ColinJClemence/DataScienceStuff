@@ -17,7 +17,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [4-1B]: 1.1-lesson
 [4-1C]: 1.2-lesson
 [4-1D]: 1.3-lab
-[4-1E]: 1.4-lab
+[4-1E]: 1.2-lab
 [4-1F]: ./instructor-contributions/
 
 [4-2A]: ./instructor-contributions/
