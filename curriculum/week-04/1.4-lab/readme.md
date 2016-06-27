@@ -13,7 +13,7 @@ creator:
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-Logistic regression (logit) is a classification modeling method, and one of the most popular and widely used learning algorithms. Use the breast cancer dataset to illustrate your understanding of Logistic Regression and predict classes.
+kNN (k-Nearest Neighbors) is a classification modeling method, and one of the most popular and widely used learning algorithms. Use the breast cancer dataset to illustrate your understanding of kNN Clustering and predict classes.
 
 ## Exercise
 
