@@ -20,7 +20,7 @@ Logistic regression (logit) is a classification modeling method, and one of the 
 #### Requirements
 - Read in Breast Cancer Dataset
 - Identify features and target
-- Use logistic regression from Scikit-Learn
+- Use kNN classification from Scikit-Learn
 
 ####Datasets
 
@@ -28,7 +28,7 @@ Logistic regression (logit) is a classification modeling method, and one of the 
 
 #### Deliverable
 
-- The purpose of this lab is to practice performing Classifications using Logistic Regression.
+- The purpose of this lab is to practice performing Classifications using kNN.
 - Demonstrate reading a data file, separating features and target, and fitting a logit model.
 - Perform classifications (predictions) on new data
 
