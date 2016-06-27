@@ -33,5 +33,5 @@ Logistic regression (logit) is a classification modeling method, and one of the 
 - Perform classifications (predictions) on new data
 
 ## Starter Code
-- Python [Starter Code](./code/starter-code/week4-1.4-starter-cancer.ipynb)
-- Bonus: [kNN Approach](./code/starter-code/week4-1.4-starter.ipynb)
+- Starter Code: [kNN Approach](./code/starter-code/week4-1.4-starter.ipynb)
+- Bonus for tomorrow, logistic regression [Starter Code](./code/starter-code/week4-1.4-starter-cancer.ipynb)
