@@ -18,7 +18,7 @@ kNN (k-Nearest Neighbors) is a classification modeling method, and one of the mo
 ## Exercise
 
 #### Requirements
-- Read in Fair Data, which is a subset of Ashely Madison Data Dumps with personalized information scrubed
+- Read in Fair Data, which is a "take" of Ashely Madison Data Dumps with no personalized information
 - Identify features and target
 - Use kNN classification from Scikit-Learn
 
