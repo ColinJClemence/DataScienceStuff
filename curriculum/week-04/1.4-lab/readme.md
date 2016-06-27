@@ -13,14 +13,14 @@ creator:
 
 > ***Note:*** _This can be a pair programming activity or done independently._
 
-Logistic regression (logit) is a classification modeling method, and one of the most popular and widely used learning algorithms. Use the breast cancer dataset to illustrate your understanding of Logistic Regression and predict classes.
+kNN (k-Nearest Neighbors) is a classification modeling method, and one of the most popular and widely used learning algorithms. Use the breast cancer dataset to illustrate your understanding of kNN Clustering and predict classes.
 
 ## Exercise
 
 #### Requirements
 - Read in Breast Cancer Dataset
 - Identify features and target
-- Use logistic regression from Scikit-Learn
+- Use kNN classification from Scikit-Learn
 
 ####Datasets
 
@@ -28,10 +28,10 @@ Logistic regression (logit) is a classification modeling method, and one of the 
 
 #### Deliverable
 
-- The purpose of this lab is to practice performing Classifications using Logistic Regression.
+- The purpose of this lab is to practice performing Classifications using kNN.
 - Demonstrate reading a data file, separating features and target, and fitting a logit model.
 - Perform classifications (predictions) on new data
 
 ## Starter Code
-- Python [Starter Code](./code/starter-code/week4-1.4-starter-cancer.ipynb)
-- Bonus: [kNN Approach](./code/starter-code/week4-1.4-starter.ipynb)
+- Starter Code: [kNN Approach](./code/starter-code/week4-1.4-starter.ipynb)
+- Bonus for tomorrow, logistic regression [Starter Code](./code/starter-code/week4-1.4-starter-cancer.ipynb)
