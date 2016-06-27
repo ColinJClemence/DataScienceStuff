@@ -18,13 +18,14 @@ kNN (k-Nearest Neighbors) is a classification modeling method, and one of the mo
 ## Exercise
 
 #### Requirements
-- Read in Breast Cancer Dataset
+- Read in Fair Data, which is a subset of Ashely Madison Data Dumps with personalized information scrubed
 - Identify features and target
 - Use kNN classification from Scikit-Learn
 
 ####Datasets
 
-- [Breast cancer dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data)
+- [Ashley Madison Data Hack and Leak Discussed](https://www.agari.com/exploring-the-ashley-madison-dataset/)
+- [Walk through of Wisconsin Breast Cancer Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data)
 
 #### Deliverable
 
@@ -33,5 +34,4 @@ kNN (k-Nearest Neighbors) is a classification modeling method, and one of the mo
 - Perform classifications (predictions) on new data
 
 ## Starter Code
-- Starter Code: [kNN Approach](./code/starter-code/week4-1.4-starter.ipynb)
-- Bonus for tomorrow, logistic regression [Starter Code](./code/starter-code/week4-1.4-starter-cancer.ipynb)
+- Please review the ipython notebooks available in the starter_code section
