@@ -10,7 +10,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 10-11:30 | [Classification Lab][4-1E] [(Project Review)][4-1A]    | [Logistic Regression Lab][4-2C] | [Visualizing Classification Models][4-3B] & [Plotting Classification Lab][4-3C]     | [Regularization Lab][4-4D] | [Project 4: Workshop][4-5D] 
 11:30-1 | [Web Scraping 101][4-1C]         | [Project 4: Workshop][4-3D]      | [Project 4 Lab / Project 3 Walkthrough][4-3D]                 | [Advanced Model Evaluation][4-4B]     | [Before Lunch - Project 4: Presentations][4-5E]
 2-3:30 | [Scraping Practice][4-1D]         | [Afternoon Exercise][4-2A] & [Intro to Project Capstone, Pt 1][4-3E] | [Evaluating Model Fit][4-2D] | [Sklearn & Project 4][4-4C]      | [After Lunch - Project 4: Presentations][4-5E]
-3:30 | [APIs & Web Overview]           | [(Outcomes)][4-3A]               | [Model Tuning Lab][4-2E]                                          | [Project 4: Workshop][4-4E] & [(Reflection)][4-5A]      | [Communicating Results][4-5B] [Or Instructor Choice]
+3:30 | [APIs & Web Overview]           | [(Outcomes 4-5:30)][4-3A]               | [Model Tuning Lab][4-2E]                                          | [Project 4: Workshop][4-4E] & [(Reflection)][4-5A]      | [Communicating Results][4-5B] [Or Instructor Choice]
 
 
 [4-1A]: ./instructor-contributions/
