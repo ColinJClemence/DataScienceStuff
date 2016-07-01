@@ -20,7 +20,7 @@ Acceptable performance for these standards is based on how well you've performed
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
 | Identify: Problem Statement / Aim | | | | n/a |
-| Acquire: Import Data Using Requests + BeautifulSoup *Bonus*:| | | | n\a |
+| Acquire: Import Data Using Requests + BeautifulSoup *Bonus*:| | *Bonus*| *Bonus*| n\a |
 | Parse: Data Wrangling: Clean & Organize Data | | | | n/a |
 | Mine: Convert & Describe Data | | | | n/a |
 | Refine: Plot Refined Data | | | | n/a |
