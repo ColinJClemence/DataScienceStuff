@@ -32,7 +32,7 @@ Acceptable performance for these standards is based on how well you've performed
 ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **21**  points on this project. Your score is: **#**
+Based on the requirements, you can earn a maximum of  **16**  points on this project without bonus sections. Your score is: **#**
 
 - Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
 
