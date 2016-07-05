@@ -20,7 +20,7 @@ Acceptable performance for these standards is based on how well you've performed
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
 | Identify: Problem Statement / Aim | | | | n/a |
-| Acquire: Import Data Using Requests + BeautifulSoup | | | | *Bonus*:  |
+| Acquire: Import Data Using Requests + BeautifulSoup *Bonus*:| | *Bonus*| *Bonus*| n\a |
 | Parse: Data Wrangling: Clean & Organize Data | | | | n/a |
 | Mine: Convert & Describe Data | | | | n/a |
 | Refine: Plot Refined Data | | | | n/a |
@@ -32,7 +32,7 @@ Acceptable performance for these standards is based on how well you've performed
 ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **21**  points on this project. Your score is: **#**
+Based on the requirements, you can earn a maximum of  **16**  points on this project without bonus sections. Your score is: **#**
 
 - Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
 
