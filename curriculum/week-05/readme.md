@@ -4,13 +4,16 @@ This is a summary of the materials provided for Week 5 of the Data Science Immer
 
 ## Week 5: Classification & Databases
 
-Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
- --- | --- | --- | --- | ---  | ---
-9-10 | [(Project Review)][5-1A]               | [Morning Exercise][5-2A]               | [(Outcomes)][5-3A]                         | [Morning Exercise][5-4A]        | [(Reflection)][5-5A]
-10-11:30 | [Different Databases][5-1B]        | [Logistic Regression Case Study][5-2B] | [More SQL][5-3B]                           | [Feature Selection][5-4B]       | [SVM: Bonus/Optional Lesson][5-5B]
-11:30-1 | [Intro to SQL][5-1C]                | [Pipelines in Sklearn][5-2C]           | [SQL Lab][5-3C]                            | [Feature Selection Lab][5-4C]   | [SVM: Bonus/Optional Topic Lab][5-5C]
-2-3:30 | [Remote Database Lab 1][5-1D]        | [Project Pipeline Lab][5-2D]           | [Setup Local Postgresql Server][5-3D]      | [Project 5: Workshop][5-4D]     | [Project 5: Workshop][5-5D]
-3:30-5 | [Remote Database Lab 2][5-1E]        | [Logistic Regression Lab][5-2E]        | [+Flex: Workshop][5-3E]                    | [Project 5: Workshop][5-4E]     | [Project 5: Presentations][5-5E]
+**Note that Monday of Week 5 is July 4th**
+
+Session Time | Day 2 | Day 3 | Day 4 | Day 5 
+ --- | --- | --- | --- | --- | ---  | ---
+9-10 | [(Project Review)][5-1A]               | [Remote Database Lab 2][5-1E]               | [Morning Exercise][5-2A]                         | [(Reflection) or Morning Exercise][5-5A]
+10-11:30 | [Different Databases][5-1B]        | [Pipelines in Sklearn][5-2C]  | [Feature Selection][5-4B]                           | [Capstone Part 1: Workshop][5-5D]
+11:30-1 | (Project 5 Overview)                | [Project Pipeline Lab][5-2D]           | [Feature Selection Lab][5-4C]                            | [Bonus/Optional Topic Lab][5-5C]
+2-3:30 | [Intro to SQL][5-1C]        | [Logistic Regression Case Study][5-2B]            | [More SQL][5-3B] & [Setup Local Postgresql Server][5-3D]      | [Capstone: Workshop][5-5D]
+3:30-5 | [Remote Database Lab 1][5-1D]        | [Logistic Regression Lab][5-2E]        | [SQL Lab][5-3C]                   | [Project 5: Workshop][5-4E] 
+++     | [(Outcomes)][5-3A] 
 
 
 
