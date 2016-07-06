@@ -1,5 +1,5 @@
 ---
-title: Pipelines and Custom Transformers in SKLearn
+title: Pipelines and Transformers in SKLearn
 duration: "1:25"
 creator:
     name: Francesco Mosconi
