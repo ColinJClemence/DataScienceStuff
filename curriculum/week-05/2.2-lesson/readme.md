@@ -1,5 +1,5 @@
 ---
-title: Pipelines and Transformers in SKLearn
+title: Pipelines and Custom Transformers in SKLearn
 duration: "1:25"
 creator:
     name: Francesco Mosconi
@@ -381,8 +381,52 @@ Label Manipulators
 - MultiLabelBinarizer
 
 <a name="demo_2"></a>
-## Custom Transformers - moved to optional - objected oriented program
+## Custom Transformers (10 minutes)
 
+We can implement custom transformers by extending the BaseClass in Scikit-Learn.
+
+
+```python
+from sklearn.base import BaseEstimator, TransformerMixin
+import numpy as np
+
+class FeatureMultiplier(BaseEstimator, TransformerMixin):
+    def __init__(self, factor):
+        self.factor = factor
+        
+    def transform(self, X, *_):
+        return X * self.factor
+    
+    def fit(self, *_):
+        return self
+
+fm = FeatureMultiplier(2)
+
+test = np.diag((1,2,3,4))
+print test
+
+fm.transform(test)
+```
+
+    [[1 0 0 0]
+     [0 2 0 0]
+     [0 0 3 0]
+     [0 0 0 4]]
+
+
+
+
+
+    array([[2, 0, 0, 0],
+           [0, 4, 0, 0],
+           [0, 0, 6, 0],
+           [0, 0, 0, 8]])
+
+
+
+**Check**: Compare this with the `FunctionTransformer` from the preprocessing module.
+
+**Check**: Implement a custom transformer that selects a specific feature from a Pandas dataframe. It should be initialized with the column name or the column index and it should return the selected column when transforming a dataframe.
 
 <a name="ind-practice"></a>
 ## Putting it all together (20 minutes)
