@@ -19,7 +19,7 @@ Your work must:
 - Define your problem statement, goals, and success criteria.
 - Describe 1-2 potential datasets that address your problem statement
 - Identify a potential audience of stakeholders who may be interested in your findings
-- Create a 3-5 minute presentation slide deck
+- Create a 3-5 minute presentation slide deck or written out report
 - Be prepared to discuss and defend your topic & dataset(s)
 
 - ***Bonus:***
