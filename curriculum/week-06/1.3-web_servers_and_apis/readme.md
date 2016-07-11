@@ -1,13 +1,14 @@
 ---
-title: Servers, JSON, & APIs
+title: Web Services & APIs
 duration: "1:25"
 creator:
     name: Francesco Mosconi
+    updated: David Yerrington
     city: SF
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Servers, JSON, & APIs
-Week 6 | Lesson 1.3
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Web Services & APIs
+Week 6| Lesson 1.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -19,8 +20,8 @@ Week 6 | Lesson 1.3
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
-- Use a web browser
-- Know what a web server is
+- use a web browser
+- know what a web server is
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
@@ -28,6 +29,7 @@ Week 6 | Lesson 1.3
 - Generate a brief slide deck
 - Prepare any specific materials
 - Provide students with additional resources
+- Shot of Vodka
 
 ### LESSON GUIDE
 
@@ -43,17 +45,116 @@ Week 6 | Lesson 1.3
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
 <a name="opening"></a>
-## Opening (5 min)
-In the previous class we learned about decision trees. In this lesson we will discuss Application Program Interfaces or APIs. An API is a set of routines, protocols, and tools for building software applications that specifies how software components should interact.
+## Opening (5 mins)
 
-In the context of data science, APIs are a very important method to interact with data hosted by third parties -- APIs provide a way to interact with someone else's database.
+In previous classes we learned about building processes that scrape content from web-sites.  In this lesson we will be diving into the world of API's, but more specifically we will be taking a tour of one of the most accessible sources of data on the internet.
+
+
+
+## First, What is an API?
+
+An API (Application Programming Interface) is a set of routines, protocols, and tools for building software applications. It specifies how software components should interact.
+
+APIs are a way developers abstract functionality to data, devices, and other resources they provide. 
+
+Some examples include:
+
+- Connectivity to a variety of databases
+- Python modules that can turn LED lights on and off
+- Application that runs on native Windows, OSX, or Linux
+- Libraries that post content on Twitter, Facebook, Yelp, or LinkedIn
+- Web services for accessing currency or stock prices
+
+More abstract examples:
+- Adding your own functions to Numpy itself
+- Extending Python with C code
+- Testing Frameworks
+
+In the context of data science, APIs are a very common method to interact with data hosted by third parties and most commonly provided by Web Service API's
+
+### Famous APIs:  Facebook
+
+Facebook provides an API for interacting with their service.  At a glance:
+
+- View your posts
+- View websites, people, posts, pages that you've liked
+- View activity on apps from you and your friends
+  - Movies watched
+  - Music listened
+  - Games played
+- View places traveled / check-ins
+- Relationships
+
+Potential Project Ideas:
+
+|   |   |   |   |
+|---|---|---|---|
+| Determining Latent Characteristics | Friends Activity | Political Classification | Text Mining |
+| Friend Classifier | Trending Topics | Recommenders | Feature Importances |
+| Taste Profiling | Hipster Detector | Sub-group Identification | Checkin-Prediction |
+| Relationship Forcasting | Relationship Classification | Sentiment Analysis | Popularity Projection |
+| Personal Analytics | Friend Similarity Prediction | N-Gram Analysis | Topic Modeling |
+
+### Famous APIs:  Yelp
+
+Yelp provides a way for developers to access:
+
+- Reviews
+ - Services
+ - Restaraunts / Bars / Cafes
+ - Businesses
+- Business meta-data
+
+Potential Project Ideas
+
+|   |   |   |   |
+|---|---|---|---|
+| Topic Modeling | Text Mining | Sentiment Analysis | Funny / Cool / Interesting Classification | 
+| Music Genre Classification | Parking Index Classification | Characteristics Profiling | Hipster Index |
+| Ideal Activities | Friend Recommender | Venue Recommender | Sports Bar Classifcation |
+| Where is the best [whatever] in [neighborhood] | | |
+
+### Famouse APIs:  Echonest
+
+Echonest consolidates access to many entertainment service APIs in one place.  It has a huge list of features and connected services including:
+
+- Spotify
+- Pandora
+- Rdio
+- Gracenote
+- SoundHound
+- Shazam
+
+Some Echonest features include:
+
+- Music waveform identification (like Shazam, Soundhound music ID)
+- Playlist recommendations
+- Detailed artist, album, and track lookup
+ - Bio / Origins / Contemporaries / Noteworthy Accomplishments
+ - Official twitter / website / social media links
+ - BPM / Mood / Popularity / Genre(s) 
+ - Images / Videos / Media
+- Detailed movie, actor, product lookup
+- Concert Schedules and ticket metadata
+
+
+
+## Web API's 
+
+The prevelance of web API's have increased 10x with the rise of Javascript and advent of web programming techniques allowing the communication of small pieces of data, without having to refresh the entire page.
+
+![](https://snag.gy/ZsLvCz.jpg)
+
+With the growth of highly interactive websites, provided by AJAX programming techniques in Javascript, many languages started co-opting standards to communicate data to and from web servers mainly for two reasons:
+- Ease of integration
+- Consistent standards
 
 <a name="introduction"></a>
 ## Introduction (15 min)
 
-In order to talk about APIs, we need first to introduce the concept of _separation of concerns_. In computer science, _separation of concerns_ (SoC) is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. For example, when building a web application, the best practice is to separate the website logic from data models. This not only allows for cleaner code, but is an easier way to manipulate our layouts and interactions without having to alter how the models work. Separation of concerns becomes ever more important when working with outside data.
+In order to talk about APIs, we need first to introduce the _separation of concerns_. In computer science, _separation of concerns_ (SoC) is a design principle for separating a computer program into distinct sections, such that each section addresses a separate concern. A concern is a set of informations that affects the code of a computer program. In particular, when building a web application, it's best practice to separate the website logic from data models. This not only allows for cleaner code, but is an easier way to manipulate our layouts and interactions. Separation of concerns becomes ever more important when working with outside data.
 
-API calls are really a fancy term for making _HTTP requests_ to a server and sending/receiving structured data from that endpoint. We are still communicating with URLs, however instead of receiving markup, like we do with HTML pages, we receive data, in a variety of forms -- JSON, XML, CSV, and others.
+API calls are really a fancy term for making _HTTP requests_ to a server and sending/receiving structured data from that endpoint. We are still communicating with URLs, however instead of receiving markup, like we do with HTML pages, we receive data.
 
 [Representational state transfer (REST)](https://en.wikipedia.org/wiki/Representational_state_transfer) is the most common architecture style for passing information to and from these API endpoints.
 
@@ -75,7 +176,7 @@ HTTP Clients make or generate HTTP Requests. Some types of clients are:
 * Browsers - Chrome, Firefox and Safari.
 * Command Line programs - [curl](http://curl.haxx.se/docs/) and [wget](http://www.gnu.org/software/wget/manual/wget.html).
 
-HTTP Clients respond to HTTP Responses from a Web Server. They process the data being returned from a Web Server.
+HTTP Clients respond to HTTP Responses from a Web Server. They process the data being returned form a Web Server, aka HTTP Server.
 
 #### HTTP/Web Server
 
@@ -90,8 +191,8 @@ Web Applications are programs that run on a web server, process the HTTP request
 
 Lost? Here's the play-by-play.
 
-1. A client sends a HTTP Request to a HTTP Server running on a remote machine.
-  * The _hostname_ given in the URL, indicates which server will receive the request.
+1. A client sends a HTTP Request to a HTTP Server running on a remote machine.  
+  * The _hostname_ given in the URL, indicates which server will receive the request.  
 2. The HTTP server processes the HTTP Request. This may entail passing the request to some Web Application, which creates a HTTP Response.
 3. The response gets sent back to the client.
 4. The client processes the response.
@@ -100,7 +201,7 @@ How does the server know what the request is asking for? This is specified by th
 
 ![URL](./assets/images/http1-url-structure.png)
 
-**Check:** Can anyone explain what a client and a server are?
+**Check:** can anyone explain what a client and a server are?
 
 <a name="demo"></a>
 ## Demo: HTTP (15 min)
@@ -175,7 +276,7 @@ When a client sends a request, the server sends back a response; the standard fo
 [response body] # typically HTML, JSON, ...  
 ```
 
-**Check:** What is a request?
+**Check:** what is a request?
 
 
 * HTTP version should be 1.1
@@ -196,7 +297,7 @@ When a client sends a request, the server sends back a response; the standard fo
 |500| Internal Server Error
 
 <a name="introduction_2"></a>
-## JSON (10 min)
+## JSON (10 min)  
 
 JSON is short for _JavaScript Object Notation_, and is a way to store information in an organized, easy-to-access manner. In a nutshell, it gives us a human-readable collection of data that we can access in a really logical manner.
 
@@ -223,7 +324,7 @@ like:
 
 ##### Array
 
-**Check:** What is an array?
+**Check:** what is an array?
 > As we know, an array is an ordered collection of values. An array starts and ends with `[` and `]`. Between them, a number of values can reside. If there are more than one values reside, they are separated by `,`.
 
 
@@ -248,14 +349,15 @@ For this exercise, copy the JSON data from the [starter-code](./starter-code/tes
 
 If you see "Valid JSON", click "Beautify" and you will see a more readable way of JSON. If you do not see the message "Valid JSON", it means that there is a syntax error.
 
-* First, correct errors if there are any
-* Then, work in pairs to identify the structure of the JSON:
-    - What is a root element?
-    - Are there any arrays?
-    - How many objects are there?
-    - What are the attributes of an object?
+* first, correct errors if there are any
+* then, work in pairs to identify the structure of the JSON:
 
-> Instructor note: The provided JSON is purposefully invalid. They will have have to fix the following:
+    - what is a root element?
+    - are there any arrays?
+    - how many objects are there?
+    - what are the attributes of an object?
+
+> Instructor note: The provided json is purposefully invalid. They will have have to fix the following:
 - substitute single quotes with double quotes
 - add double quotes where missing around strings
 - add commas where missing
@@ -268,12 +370,15 @@ APIs are methods and data formats to tell people how to "talk" to a system. A co
 ### Example 1: Movies
 The internet movie database is a large collection of data about movies. It can be browsed at the address: http://www.imdb.com/.
 
-What if we wanted to programmatically access the data in the database? Unless we are employees of IMDB.com, we probably don't have direct access to their internal database, so we cannot perform SQL queries on their data.
+What if we wanted to programatically access the data in the database? Unless we are employees of IMDB.com, we probably don't have direct access to their internal database, so we cannot perform SQL queries on their data.
 
 We could use scraping to retrieve data from the web page, and in some cases we will have to do exactly that.
-*Note*: check the "Terms of Service" before you scrape a website, you could be infringing their terms.
+Note: check the "Terms of Service" before you scrape a website, you could be infringing their terms.
 
-In other cases, the website offers a way to programmatically access data from their database. That's an API. In the case of movies, this is offered by http://www.omdbapi.com/
+In other cases, the website offers a way to programatically access data from their database. That's an API.
+
+In the case of movies, this is offered by http://www.omdbapi.com/
+
 
 1. Let's try for example to retrieve the data about the "Avengers" movie in 2015:
 
@@ -305,25 +410,27 @@ you should see something like:
     Response: "True"
     }
 
-Notice what happened: we interrogated a URL and we received JSON as an answer.
+Notice what happened: we interrogated a url and we received json as an answer.
 
 2. Try submitting a couple more queries to familiarize with the API.
 - You can also query an API from the command line using the app `curl`. Try typing:
 
     curl http://www.omdbapi.com/?t=whiplash&plot=short&r=json
 
-You should see something like:
+you should see something like:
 
     {"Title":"Whiplash","Year":"2014","Rated":"R","Released":"15 Oct 2014","Runtime":"107 min","Genre":"Drama, Music","Director":"Damien Chazelle","Writer":"Damien Chazelle","Actors":"Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist","Plot":"A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.","Language":"English","Country":"USA","Awards":"Won 3 Oscars. Another 84 wins & 125 nominations.","Poster":"http://ia.media-imdb.com/images/M/MV5BMTU4OTQ3MDUyMV5BMl5BanBnXkFtZTgwOTA2MjU0MjE@._V1_SX300.jpg","Metascore":"88","imdbRating":"8.5","imdbVotes":"368,942","imdbID":"tt2582802","Type":"movie","Response":"True"}
 
 
 ### Example 2: Google Geocode API
 
-Google offers a freely accessible API to query their GEO databases. Try pasting the following line in your browser:
+Google offers a freely accessible API to query their GEO databases.
+
+Try pasting the following line in your browser:
 
     https://maps.googleapis.com/maps/api/geocode/json?address=033+BELDEN+PL+San+Francisco+CA
 
-You should see something like:
+you should see something like:
 
     {
     results: [
@@ -435,7 +542,7 @@ We queried an address and got back a lot of JSON data stored in Google's databas
 
 Many APIs are not free to access. You first need to register as a developer and obtain an authorization key. In most cases, this is also accompanied by a temporary token that needs to be renewed after some time. This is a way to prevent abuse on the server's resources.
 
-You can read more about it [here](http://oauth.net/2/).
+You can read more about it here: http://oauth.net/2/
 
 
 <a name="ind-practice_2/"></a>
@@ -443,17 +550,17 @@ You can read more about it [here](http://oauth.net/2/).
 
 ### Python APIs
 
-1. Form pairs and do the following
-- Go to http://www.pythonapi.com/
-- Choose 1 API: what data you can get?
-- Install python module, try to extract data
-- Discuss: how could you leverage that api? how could you use the data?
+1. form pairs and do the following
+- go to http://www.pythonapi.com/
+- choose 1 API: what data you can get?
+- install python module, try to extract data
+- discuss: how could you leverage that api? how could you use the data?
 
 <a name="conclusion"></a>
 ## Conclusion (5 min)
 Today we learned about HTTP, APIs and JSON formats. They are very important in order to systematically access data from the web.
 
-**Check:** Can you think of a few websites you would like to pull data from? Can you check if they have an API available?
+**Check:** can you think of a few websites you would like to pull data from? Can you check if they have an API available?
 
 ### ADDITIONAL RESOURCES
 
