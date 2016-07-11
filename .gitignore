@@ -13,3 +13,7 @@ Thumbs.db
 
 #Notebooks
 .ipynb_checkpoints/
+
+#secret files 
+secretokenfile.py
+config_secret.json
