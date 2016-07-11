@@ -31,7 +31,8 @@ This combines what you have learned about HTTPS, APIs, and JSONs.
 
 #### Requirements
 
-1. Create a YELP API developer account 
+1. Pip install and Import [yelp-python](https://github.com/Yelp/yelp-python)
+2. Create a YELP API developer account 
 - Get credentials for YELP's API
 - Retrieve data from YELP's Search API and Business API
 - Munge data
@@ -47,7 +48,4 @@ This combines what you have learned about HTTPS, APIs, and JSONs.
 [Starter Code](1.5-API-Lab-YELP-Starter-Code)
 
 ## Useful Links
-
-- [IMDB](http://www.imdb.com/)
-- [OMDBAPI](http://www.omdbapi.com/)
-- [Sheetsu](https://sheetsu.com)
+- [Yelp-Python)(https://github.com/Yelp/yelp-python)
