@@ -551,7 +551,7 @@ You can read more about it here: http://oauth.net/2/
 ### Python APIs
 
 1. form pairs and do the following
-- go to http://www.pythonapi.com/
+- go to http://www.pythonforbeginners.com/api/list-of-python-apis (or www.pythonapi.com/ -- which is not working today)
 - choose 1 API: what data you can get?
 - install python module, try to extract data
 - discuss: how could you leverage that api? how could you use the data?
@@ -567,3 +567,4 @@ Today we learned about HTTP, APIs and JSON formats. They are very important in o
 - [Blog post on json with pandas](https://www.dataquest.io/blog/using-json-data-in-pandas/)
 - [API article Wikipedia](https://en.wikipedia.org/wiki/Application_programming_interface)
 - [Programmable web](http://www.programmableweb.com/)
+- [More practice on Code Academy](https://www.codecademy.com/courses/python-intermediate-en-6zbLp/0/1)

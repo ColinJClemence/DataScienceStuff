@@ -17,7 +17,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [6-1A]: ./instructor-contributions/
 [6-1B]: 1.1-lesson
 [6-1C]: 1.2-lab
-[6-1D]: 1.3-lesson
+[6-1D]: 1.3-web_servers_and_apis
 [6-1E]: 1.4-lab
 [6-1F]: ./instructor-contributions/
 
