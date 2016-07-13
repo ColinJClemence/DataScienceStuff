@@ -37,7 +37,7 @@ For more instructions, follow the questions included in the starter code.
 
 - Perform the following tasks:
  - Write a problem statement & describe the goals of your study to be included in the final report
- - Pull the data from the IMDB API
+ - Pull the data from the [IMDB API](http://www.omdbapi.com/)
  - Scrape related IMDB data
  - Join API & scraped data in local Postgres
  - Use natural language processing to understand the sentiments of users reviewing the movies
