@@ -13,7 +13,14 @@ Thumbs.db
 
 #Notebooks
 .ipynb_checkpoints/
+._*.py
+*.pyc
 
 #secret files 
 secretokenfile.py
 config_secret.json
+random_file.json
+
+#files
+.xls
+.xlsx
