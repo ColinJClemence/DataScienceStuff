@@ -290,7 +290,7 @@ graph = pydot.graph_from_dot_data(dot_data.getvalue())
 Image(graph.create_png())  
 ```
 
-![png](../assets/images/output_17_0.png)
+![png](./assets/images/output_17_0.png)
 
 
 The first choice involves `person_2`. If the car only takes 2 people (`person_2` == 1) then the class is unacceptable. This happens in 33% of the cases. Note that the leaf under the `False` branch is 100% pure, and therefore it's Gini measure is 0.0.
