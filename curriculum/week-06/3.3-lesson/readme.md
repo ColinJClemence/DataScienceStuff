@@ -327,7 +327,7 @@ plt.ylabel('Gini index')
 
     <matplotlib.text.Text at 0x1197d5610>
 
-![png](../assets/images/output_20_1.png)
+![png](./assets/images/output_20_1.png)
 
 
 Let's verify the calculation of the Gini index in the root node of the tree above:
@@ -499,7 +499,7 @@ plt.xlim([-1, X.shape[1]])
 
 
 
-![png](../assets/images/output_32_1.png)
+![png](./assets/images/output_32_1.png)
 
 
 Now it's your turn: repeat the investigation for the extra trees model.
@@ -599,7 +599,7 @@ importances.head()
 
 
 
-![png](../assets/images/output_36_1.png)
+![png](./assets/images/output_36_1.png)
 
 
 **Check:** Discuss in small groups the plot above. What are the common things across all models? What are the differences?
