@@ -19,7 +19,7 @@
 
 [Natural Language Processing with Python -- NLTK](http://www.nltk.org/book/)
 
-[Getting Started With Natural Language Processing(]http://blog.algorithmia.com/2015/09/getting-started-with-natural-language-processing/)
+[Getting Started With Natural Language Processing](http://blog.algorithmia.com/2015/09/getting-started-with-natural-language-processing/)
 
 [Programming with Python for the Humanities](http://www.karsdorp.io/python-course/)
 
