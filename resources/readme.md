@@ -23,7 +23,7 @@
 
 [Programming with Python for the Humanities](http://www.karsdorp.io/python-course/)
 
-[Gensim: Topic Modelling Tutorial](http://radimrehurek.com/gensim/tutorial.html)
+[Gensim Topic Modelling Tutorial](http://radimrehurek.com/gensim/tutorial.html)
 
 [Twitter Sentiment Analysis using Python and NLTK](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
