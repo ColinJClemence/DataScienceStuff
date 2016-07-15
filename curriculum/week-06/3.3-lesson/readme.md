@@ -128,7 +128,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
  
-df = pd.read_csv('./assets/datasets/car.csv')
+df = pd.read_csv('../assets/datasets/car.csv')
 df.head()
 ```
 
@@ -290,7 +290,7 @@ graph = pydot.graph_from_dot_data(dot_data.getvalue())
 Image(graph.create_png())  
 ```
 
-![png](output_17_0.png)
+![png](./assets/images/output_17_0.png)
 
 
 The first choice involves `person_2`. If the car only takes 2 people (`person_2` == 1) then the class is unacceptable. This happens in 33% of the cases. Note that the leaf under the `False` branch is 100% pure, and therefore it's Gini measure is 0.0.
@@ -327,7 +327,7 @@ plt.ylabel('Gini index')
 
     <matplotlib.text.Text at 0x1197d5610>
 
-![png](output_20_1.png)
+![png](./assets/images/output_20_1.png)
 
 
 Let's verify the calculation of the Gini index in the root node of the tree above:
@@ -499,7 +499,7 @@ plt.xlim([-1, X.shape[1]])
 
 
 
-![png](output_32_1.png)
+![png](./assets/images/output_32_1.png)
 
 
 Now it's your turn: repeat the investigation for the extra trees model.
@@ -599,7 +599,7 @@ importances.head()
 
 
 
-![png](output_36_1.png)
+![png](./assets/images/output_36_1.png)
 
 
 **Check:** Discuss in small groups the plot above. What are the common things across all models? What are the differences?
