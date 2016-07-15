@@ -28,3 +28,7 @@
 [Twitter Sentiment Analysis using Python and NLTK](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
 [Tokenizing Words and Sentences with NLTK](https://pythonprogramming.net/tokenizing-words-sentences-nltk-tutorial/)
+
+
+## Videos
+[PyCon 2016](https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw)
