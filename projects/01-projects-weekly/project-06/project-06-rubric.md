@@ -21,16 +21,15 @@ Acceptable performance for these standards is based on how well you've performed
 | Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
 |---|---|---|---|---|
 | Identify: Problem Statement & Goals | | | | n/a |
-| Acquire: Query IMDB & write results scrape IMDB | | | | *Bonus: Scrape with BeautifulSoup* |
-| Acquire: Select and scrape IMDB listings | | | | n/a |
+| Acquire: Query IMDB API & write results to database | | | | *Bonus: Scrape with BeautifulSoup or other package* |
 | Parse: Convert and tokenize data for both datasets | | | | n/a |
 | Parse: Join tables in local Postgres | | | | n/a |
 | Mine: Rename & describe data | | | | n/a |
-| Refine: Visualize data | | | | *Bonus: Use multiple data viz tools* |
+| Refine: Visualize data | | | | *Bonus: Use multiple data viz tools and packages* |
 | Model: Define training set | | | | n/a |
 | Model: Train & test model | | | | *Bonus: How is model at risk of overfitting?* |
 | Present: Describe findings in formal report: summary, model, recommendations | | | | |
-| *Bonus! Use PCA for your analysis | | | | |
+| *Bonus*| Acquire: Select and scrape IMDB listings | | | | n/a |
 | *Bonus! Present: Create blog post summary* | | | | |
 | *SUPER Bonus! Use cluster analysis. Encode binary categorical variables. Evaluate quality metrics & describe your findings* | | | | |
 
