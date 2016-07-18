@@ -84,7 +84,7 @@ instructional team and classmates, please follow the
 | **June 3**       | Friday      | **Orientation & Installfest**       |
 | **June 6**       | Monday      | **First day of DSI!**               |
 | **July 4**       | Monday      | **July 4th Holiday - NO CLASS!**    |
-| **July 26**      | Friday      | **Last day of class & graduation!** |
+| **August 26**      | Friday      | **Last day of class & graduation!** |
 
 
 Note: in the weeks following your graduation, there will be a number of various
