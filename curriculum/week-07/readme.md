@@ -12,7 +12,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 2-3:30 | [Tuning Clusters][7-1D]                  | [PCA Lab 1][7-2D]                         | [Classifier Clustering Lab][7-3D]         | [Clustering & PCA Lab][7-4D] | [Project 7: Workshop][7-5D]
 3:30-5 | [Project 6 Review][7-1F] | [PCA Lab 2][7-2E]                         | [Unsupervised Learning Trends][7-3E]                      | [Advanced SQL & Database Practice][7-1E] | [Project 7: Presentations][7-5E]
 
-[7-1A]: ../../../exercises
+[7-1A]: https://github.com/ga-students/DSI_SM_01/tree/master/exercises
 [7-1B]: 1.1-lesson
 [7-1C]: 1.2-lab
 [7-1D]: 1.3-lesson
