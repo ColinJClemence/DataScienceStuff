@@ -13,8 +13,8 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 3:30-5 | [Project 6 Review][7-1F] | [PCA Lab 2][7-2E]                         | [Unsupervised Learning Trends][7-3E]                      | [Advanced SQL & Database Practice][7-1E] | [Project 7: Presentations][7-5E]
 
 [7-1A]: https://github.com/ga-students/DSI_SM_01/tree/master/exercises
-[7-1B]: 1.1-lesson
-[7-1C]: 1.2-lab
+[7-1B]: 1.1-lesson-clustering-kmeans
+[7-1C]: 1.2-lab-clustering-kmeans
 [7-1D]: 1.3-lesson
 [7-1E]: 1.4-lesson
 [7-1F]: ../../../projects/01-projects-weekly/project-07
