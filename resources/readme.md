@@ -32,3 +32,6 @@
 
 ## Videos
 [PyCon 2016](https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw)
+
+## Papers
+[Original Silhouette Score Paper](/silhouette_score_paper.pdf)
