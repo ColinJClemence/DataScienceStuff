@@ -31,7 +31,7 @@ Week 7 | Lesson 3.2
 | 5 min  | [Opening](#opening)  | Opening |
 | 10 min  | [Introduction](#introduction)   | What is Hierarchical Clustering?  |
 | 15 min  | [Demo](#demo)  | Example of Hierarchical Clustering  |
-| 25 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Hierarchical Clustering in Python |
+| 25 min  | [Guided Practice](#guided-practice)  | Hierarchical Clustering in Python |
 | 25 min  | [Independent Practice](#ind-practice)  | Implement hierarchical clustering
 | 5 min  | [Conclusion](#conclusion)  | Conclusion  |
 
