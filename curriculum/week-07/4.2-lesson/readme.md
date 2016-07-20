@@ -34,7 +34,7 @@ Week 7 | Lesson 4.2
 | 5 min  | [Opening](#opening)  | Opening  |
 | 10 min  | [Introduction](#introduction)   | What is DBSCAN?  |
 | 15 min  | [Demo](#demo)  | Implementation of DBSCAN |
-| 25 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Example of DBSCAN in PYTHON  |
+| 25 min  | [Guided Practice](#guided-practice)  | Example of DBSCAN in PYTHON  |
 | 25 min  | [Independent Practice](#ind-practice)  | Perform your own DBSCAN |
 | 5 min  | [Conclusion](#conclusion)  | Conclusion  |
 
