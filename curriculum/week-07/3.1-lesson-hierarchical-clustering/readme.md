@@ -31,7 +31,7 @@ Week 7 | Lesson 3.2
 | 5 min  | [Opening](#opening)  | Opening |
 | 10 min  | [Introduction](#introduction)   | What is Hierarchical Clustering?  |
 | 15 min  | [Demo](#demo)  | Example of Hierarchical Clustering  |
-| 25 min  | [Guided Practice](#guided-practice)  | Hierarchical Clustering in Python |
+| 25 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Hierarchical Clustering in Python |
 | 25 min  | [Independent Practice](#ind-practice)  | Implement hierarchical clustering
 | 5 min  | [Conclusion](#conclusion)  | Conclusion  |
 
@@ -55,7 +55,7 @@ Week 7 | Lesson 3.2
 
 Hierarchical clustering, like k-means clustering, is another common form of clustering analysis. With this type of clustering - we seek to do exactly what the name suggests: build hierarchies of links that ultimately form clusters. Once these links are determined, they are displayed in what is called a **dendrogram** - a graph that displays all of these links in a hierarchical manner.
 
-![denex](./assets/images/denex.png)
+![denex](/assets/images/denex.png)
 
 To find clusters in a dendrogram, we can cut the graph to find the clusters - we'll go over this later in the lesson. 
 

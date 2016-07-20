@@ -7,9 +7,9 @@ This is a summary of the materials provided for Week 7 of the Data Science Immer
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
 9-10 | [Morning Exercise][7-1A]                   | [Morning Exercise][7-2A]                  | [Morning Exercises][7-3A]                        | [Morning Exercise][7-4A]     | [(Reflection)][7-5A]
-10-11:30 | [Intro to Clustering][7-1B]            | [Intro to Dimensionality Reduction][7-2B] | [Linear Algebra Review - TBA][7-3B]             | [*Instructor Flex*][7-4B]              | [PCA Case Study][7-5B]
-11:30-1 | [Clustering Lab][7-1C]                  | [Intro to PCA][7-2C]                      | [K-Means & Hierarchical Clustering][7-3C] | [Clustering & PCA][7-4C]     | [Project 7: Workshop][7-5C]
-2-3:30 | [Tuning Clusters][7-1D]                  | [PCA Lab 1][7-2D]                         | [Classifier Clustering Lab][7-3D]         | [Clustering & PCA Lab][7-4D] | [Project 7: Workshop][7-5D]
+10-11:30 | [Intro to Clustering][7-1B]            | [Intro to Dimensionality Reduction][7-2B] | [K-Means & Hierarchical Clustering][7-3C]             | [*Instructor Flex*][7-4B]              | [PCA Case Study][7-5B]
+11:30-1 | [Clustering Lab][7-1C]                  | [Intro to PCA][7-2C]                      |  [Classifier Clustering Lab][7-3D] | [Clustering & PCA][7-4C]     | [Project 7: Workshop][7-5C]
+2-3:30 | [Tuning Clusters][7-1D]                  | [PCA Lab 1][7-2D]                         | [Linear Algebra Review - TBA][7-3B]        | [Clustering & PCA Lab][7-4D] | [Project 7: Workshop][7-5D]
 3:30-5 | [Project 6 Review][7-1F] | [PCA Lab 2][7-2E]                         | [Unsupervised Learning Trends][7-3E]                      | [Advanced SQL & Database Practice][7-1E] | [Project 7: Presentations][7-5E]
 
 [7-1A]: https://github.com/ga-students/DSI_SM_01/tree/master/exercises
