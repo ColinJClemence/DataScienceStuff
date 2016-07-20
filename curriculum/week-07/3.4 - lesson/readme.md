@@ -31,7 +31,7 @@ Week 7 | Lesson 3.4
 |:-:|---|---|
 | 10 min  | [Opening](#opening)  | Opening |
 | 10 min  | [Introduction](#introduction)   | Where have we been? Where are we going?  |
-| 45 min  | [Methods](#guided-practice<a name="opening"></a>)  | Explanation of Methods  |
+| 45 min  | [Methods](#guided-practice)  | Explanation of Methods  |
 | 5 min  | [Conclusion](#conclusion)  | Conclusion|
 
 ---
