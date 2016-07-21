@@ -23,13 +23,13 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [7-2B]: 2.1-lesson
 [7-2C]: 2.2-lesson
 [7-2D]: 2.3-lab
-[7-2E]: 2.4-lab
+[7-2E]: 2.4-lab-pca-with-kmeans
 [7-2F]: ./instructor-contributions/
 
 [7-3A]: https://github.com/ga-students/DSI_SM_01/tree/master/exercises
-[7-3B]: 3.1-lesson
+[7-3B]: 3.1-lesson-hierarchical-clustering
 [7-3C]: 3.2-lesson
-[7-3D]: 3.3-lab
+[7-3D]: 3.3-lab-clustering-lab
 [7-3E]: 3.4-lesson
 [7-3F]: ./instructor-contributions/
 
