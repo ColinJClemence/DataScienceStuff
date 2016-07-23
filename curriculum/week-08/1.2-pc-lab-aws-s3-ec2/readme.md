@@ -7,7 +7,7 @@ creator:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS: Amazon Web Services
-Week 10 | Lesson 2.1
+Week 8 | Lesson 1.2
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -28,15 +28,13 @@ Week 10 | Lesson 2.1
 - Prepare any specific materials
 - Provide students with additional resources
 
-### ADDITIONAL WEEK 10 PREP
+### ADDITIONAL CLOUD COMPUTING & BIG DATA PREP
 This week requires additional prep in order to successfully run all lessons and labs provided:
 
-1. [Download and install Virtual Machine](../VM-installation.md).
-    - Note: This is a big file. Please reserve time to download and troubleshoot installation.
-2. [Sign up for AWS Account & Credits](../AWS-instructions.md).
+For Today: [Sign up for AWS Account & Credits](../AWS-instructions.md).
     - Note: Instructors will need to distribute individual URLs for the signup form. See linked instructions.
-
-
+For Tomorrow: [Download and install Virtual Machine](../VM-installation.md).
+    - Note: This is a big file. Please reserve time to download and troubleshoot installation.
 
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
