@@ -33,6 +33,7 @@ This week requires additional prep in order to successfully run all lessons and 
 
 For Today: [Sign up for AWS Account & Credits](../AWS-instructions.md).
     - Note: Instructors will need to distribute individual URLs for the signup form. See linked instructions.
+
 For Tomorrow: [Download and install Virtual Machine](../VM-installation.md).
     - Note: This is a big file. Please reserve time to download and troubleshoot installation.
 
