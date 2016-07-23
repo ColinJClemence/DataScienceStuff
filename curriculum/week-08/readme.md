@@ -2,7 +2,7 @@
 
 This is a summary of the materials provided for Week 8 of the Data Science Immersive.
 
-## Week 8: Bayesian Inference
+## Week 8: Bayesian Inference & Cloud Computing
 
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
