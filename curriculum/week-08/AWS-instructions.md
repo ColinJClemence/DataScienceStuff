@@ -28,4 +28,4 @@ These URLs will take students to an input form. To complete this form, students 
 
 **REMINDER**: Make sure to check your spam folder for the review and confirmation email from "support@awseducate.com".
 
-***If you have any problems, please alert your local production team.***
+***If you have any problems, please alert your local instructional team.***
