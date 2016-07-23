@@ -48,6 +48,6 @@ Submit a notebook with the code written to complete the exercises
 
 For those of you who want to read further:
 
-- Model fitting doc in PyMC (https://pymc-devs.github.io/pymc/modelfitting.html)#
+- Model fitting doc in PyMC (https://pymc-devs.github.io/pymc/modelfitting.html)
 - MCMC model fitting https://pymc-devs.github.io/pymc/modelfitting.html#markov-chain-monte-carlo-the-mcmc-class
 - PyMC class types: https://pymc-devs.github.io/pymc/modelbuilding.html
