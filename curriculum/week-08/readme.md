@@ -14,7 +14,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 
 [8-1AA]: 1.1-pc-lesson-intro-cloud-computing
 [8-1BB]: 1.2-pc-lab-aws-s3-ec2
-[8-1CC]: 1.2-pc-lab-aws-hdfs-rds
+[8-1CC]: 1.3-pc-lab-rds-hdfs
 
 [8-1A]: ./instructor-contributions/
 [8-1B]: 1.1-lesson
