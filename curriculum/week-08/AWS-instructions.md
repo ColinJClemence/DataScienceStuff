@@ -1,6 +1,9 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS Instructions
 
-Instructors: This week requires some additional preparation. In order to complete the lessons and labs on AWS without running up a bill, students will need access to their AWS educational credits. Instructions for this are as follows:
+Objective: 
+- Provide AWS educational credits to students
+- Enable students to complete lessons and labs on AWS without running up a bill, students will need access to their AWS educational credits. 
+- Instructions for this are as follows in Part I and Part II below. Please complete each step of each part.
 
 ## Part 1: Retrive your Unique URL from Slack
 1. All Students should have received a unique sign-up URL via Slack. 

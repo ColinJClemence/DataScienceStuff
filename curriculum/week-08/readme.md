@@ -12,9 +12,9 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 2-3:30 | [Intro to Bayes][8-1B] [Bayes Deep Dive][8-1D]        | [Review Prior Models + Bayes][8-2D] | [Intro to LDA][8-3D]               | [Naive Bayes Lesson][8-4D]     | [Capstone Pt 2: Workshop][8-5D]
 3:30-5 | [Intro to Bayes Lab][8-1C] [Bayes Case Study 1][8-1E]     | [Bayes Case Study 2][8-2E]          | [LDA & API Data Lab][8-3E]         | [Naive Bayes Lab][8-4E]        | [Capstone Pt 2: Workshop][8-5E]
 
-[8-1AA]: pc-1.1-lesson-intro-cloud-computing
-[8-1BB]: pc-1.2-lab-aws-ec2-s3
-[8-1CC]: pc-1.2-lab-aws-hdfs-rds
+[8-1AA]: 1.1-pc-lesson-intro-cloud-computing
+[8-1BB]: 1.2-pc-lab-aws-s3-ec2
+[8-1CC]: 1.3-pc-lab-rds-hdfs
 
 [8-1A]: ./instructor-contributions/
 [8-1B]: 1.1-lesson
