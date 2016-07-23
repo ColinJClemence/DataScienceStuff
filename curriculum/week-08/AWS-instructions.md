@@ -24,7 +24,7 @@ These URLs will take students to an input form. To complete this form, students 
   - *Note: This is a 12 digit number, not your Amazon username (if you have one).*
 7. If you don't know it or have never signed up for AWS before, click the link to "sign up now". This will open in a new tab.
 8. Once you sign up and enter the AWS console, you can click on your name (on the top right) to view your account and copy your AWS account ID. Copy / paste that back into the form.
-9. On the next page, you will need to input your credit card information. Don't worry, it won't be charged!
+9. On the next page, you will need to input your credit card information. Don't worry, it won't be charged if you have GA credits and/or use the free tier services on AWS.
 10. Select "basic support plan".
 11. Submit. You should have now an email that says you’re "under review".
 12. You will then receive a second confirmation email from `support@awseducate.com` and your credits will be linked to your AWS account.
