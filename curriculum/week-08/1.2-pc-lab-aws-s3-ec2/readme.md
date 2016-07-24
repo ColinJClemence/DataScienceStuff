@@ -134,9 +134,9 @@ Let's go ahead and follow the [tutorial for EC2](https://aws.amazon.com/getting-
 
 
 What is the different between EC2 Ubuntu and Linus-AMIs Instances: 
-> Who and how maintained
-> Preinstalled tools
-> Depends on technology being used 
+- Who and how maintained
+- Preinstalled tools
+- Depends on technology being used 
 
 [Quora Discussion](https://www.quora.com/Which-EC2-instance-is-better-Linux-AMI-or-Ubuntu)
 
