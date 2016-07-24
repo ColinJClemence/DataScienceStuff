@@ -1,25 +1,23 @@
 ---
-title: AWS Elastic Map Reduce
-duration: "1:25"
+title: AWS RDS
+duration: ":30"
 creator:
-    name: Francesco Mosconi
-    city: SF
+    name: Pauline Chow
+    city: LA
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS Elastic Map Reduce
-Week 10 | Lesson 2.2
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS Relational Database Service (RDS)
+Week 8 | Lesson 1.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- spin up a cluster on AWS
-- browse HDFS using Hadoop User Environment
-- launch a HIVE Shell and execute HIVE queries on an EMR cluster
+- use AWS set up configuration for RDS
+- spin up a postgreSQL instance
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
 - sign in to your AWS console
-- run HIVE queries on the VM
-- explain what Hadoop is and how it works
+- understand remote and local databases
 
 ### INSTRUCTOR PREP
 *Before this lesson, instructors will need to:*
