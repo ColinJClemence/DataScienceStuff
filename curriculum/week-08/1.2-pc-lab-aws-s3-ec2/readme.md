@@ -103,7 +103,7 @@ The main conceptual shift from using a laptop to running an instance in the clou
 
 Let's see how it works.
 
-1) Create a new account on AWS [here](https://aws.amazon.com/)
+1) Create a new account on AWS [here](https://aws.amazon.com/) or log in to an exsiting one
 
 It will ask you for contact information and credit card. Do not worry, most of the thing we will do are free for first time users and when we will use paying services it won't likely cost more than 10$.
 
