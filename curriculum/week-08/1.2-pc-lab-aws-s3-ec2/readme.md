@@ -262,11 +262,6 @@ Note that one of the method is to simply use `pip` to install the AWSCLI.
 
 **Note:** If you already have AWSCLI configured and you would like to have multiple roles, you can do that as explained [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html).
 
-#### Step 3: Using the AWS CLI with Amazon S3
-
-Now you can go ahead and copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
-
-Here's a [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
 
 <a name="guided_practice"></a>
 ## EC2 from the command line (15 min)
@@ -407,17 +402,24 @@ Objects are organized into buckets (each owned by an Amazon Web Services account
 
 
 <a name="ind-practice"></a>
+# Independent Practice and Lab with S3
 ## Simple Storage Service [S3] (5 min)
 
-In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
+Complete the two tasks below in groups: 
+1. In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
+    The steps should be super simple to follow. Any questions?
 
-The steps should be super simple to follow. Any questions?
+    **Check:** what's a practical case you can envision using S3 for?
+    > Answer: storing input dataset, storing result tables. It's like Dropbox
+    
+    **Bonus 1:** Create a folder in our bucket and upload a csv file
+    **Bonus 2:** Delete folders and buckets in the AWS cosole
 
-**Check:** what's a practical case you can envision using S3 for?
-> Answer: storing input dataset, storing result tables. It's like Dropbox
+2. Using the AWS CLI with Amazon S3
 
-**Bonus 1:** Create a folder in our bucket and upload a csv file
-**Bonus 2:** Delete folders and buckets in the AWS cosole
+AWS products allow you to go back and forth between products in the command line. You are able to copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
+
+Find the command to show the recent s3 bucket you created: Use the [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
 
 <a name="conclusion"></a>
 ## Conclusion (5 min)
