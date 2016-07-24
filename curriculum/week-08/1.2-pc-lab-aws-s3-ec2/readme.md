@@ -236,13 +236,18 @@ Wow, great! We have learned to request and access computing power and storage as
 <a name="ind-practice"></a>
 ## AWS Command Line [AWSCLI] (15 min)
 
-Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+Let's go ahead and follow the [tutorial for AWSCLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html)
+- Use case for setting up AWSCLI tools is that you will be able to Backup Files to Amazon S3 using the AWS CLI
+- Linux AMI will come with the tools pre-installed
+- Ubuntu instances, you must install these tools: [Install the AWS CLI Using the Bundled Installer (Linux, OS X, or Unix)](http://docs.aws.amazon.com/cli/latest/userguide/installing.html#install-bundle-other-os)
 
 ### Steps to complete
 
 #### Step 1: Create an AWS IAM User
 
 In order to use the command line we will have to configure a set of access credentials on our laptop. It's very important to create a separate identity with limited permissions instead of using our root account credentials.
+
+This is a good [IAM Tutorial](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/) within the context of being able to interact with s3 from the command line
 
 **Check:** why is this so important?
 > Answer: so that we can limit the damage a user could do if he/she were to obtain our credentials
