@@ -341,7 +341,7 @@ aws ec2 describe-images --image-ids ami-9abea4fb --region us-west-2
 
 #### 4. Launch spot instance
 
-You're now ready to sumbit the spot instance request:
+You're now ready to sumbit the spot instance request, plug in relevant ids below and run in your terminal:
 
 ```bash
 aws ec2 request-spot-instances \
