@@ -411,6 +411,7 @@ Objects are organized into buckets (each owned by an Amazon Web Services account
 ## Simple Storage Service [S3] (5 min)
 
 Complete the two tasks below in groups: 
+
 1. In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
     The steps should be super simple to follow. Any questions?
 
