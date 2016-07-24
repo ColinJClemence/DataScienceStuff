@@ -66,7 +66,7 @@ Today we are going to discover Amazon Web Services. In particular we will focus 
 
 <a name="introduction"></a>
 ## Intro to AWS (10 min)
-_Amazon Web Services (AWS)_, is a subsidiary of Amazon.com, which offers a suite of cloud computing services that make up an on-demand computing platform. These services operate from 12 geographical regions across the world. The most central and best-known of these services arguably include Amazon Elastic Compute Cloud, also known as "EC2", and Amazon Simple Storage Service, also known as "S3". AWS now has more than 70 services that span a wide range including compute, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools and tools for the Internet of things. Amazon markets AWS as a service to provide large computing capacity quicker and cheaper than a client company building an actual physical server farm. _(from wikipedia)_
+_Amazon Web Services (AWS)_, is a subsidiary of Amazon.com, which offers a suite of cloud computing services that make up an on-demand computing platform. These __services operate from 12 geographical regions across the world.__ The most central and best-known of these services arguably include Amazon Elastic Compute Cloud, also known as "EC2", and Amazon Simple Storage Service, also known as "S3". AWS now has more than __70 services__ that span a wide range including compute, storage, networking, database, analytics, application services, deployment, management, mobile, developer tools and tools for the Internet of things. Amazon markets AWS as a service to provide large computing capacity quicker and cheaper than a client company building an actual physical server farm. _(from wikipedia)_
 
 Today we will explore two services that are relevant to a lot of big-data scenarios.
 
@@ -96,7 +96,7 @@ The first service we will discover is _Elastic Compute Cloud_ or _EC2_. This ser
 - **SSH Key**: [pair of keys](https://en.wikipedia.org/wiki/Public-key_cryptography) necessary to connect to an instance remotely. The private key will be downloaded to our laptop, the matching public key will be automatically configured on the instance.
 
 
-The main conceptual shift from using a laptop to running an instance in the cloud is that we should think of computing power as ephemeral. We can request computing power when we need it, do a calculation and dismiss that power as we are done. Input and output will not be stored on the machine, rather stored somewhere else in the cloud (hint: S3). In this sense, computing power is a commodity that we purchase and use in the amount and time that we need.
+The main conceptual shift from using a laptop to running an instance in the cloud is that we should __think of computing power as ephemeral.__ We can request computing power when we need it, do a calculation and dismiss that power as we are done. Input and output will not be stored on the machine, rather stored somewhere else in the cloud (hint: S3). In this sense, computing power is a commodity that we purchase and use in the amount and time that we need.
 
 Let's see how it works.
 
