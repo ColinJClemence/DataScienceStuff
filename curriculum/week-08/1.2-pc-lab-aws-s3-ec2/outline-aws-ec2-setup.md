@@ -1,4 +1,4 @@
-Outline of steps in presentation and readme for EC2 setup. 
+**Outline of steps in presentation and readme for EC2 setup.** 
 Also see linked AWS tutorials, as things can change over time:
 
 1. Start an account on Amazon Web Services. You'll need a user name and password.
