@@ -133,7 +133,12 @@ Let's go ahead and follow the [tutorial for EC2](https://aws.amazon.com/getting-
 ![](./assets/images/launch-instance.png)
 
 
-Ubuntu versus Linus-AMIs: [Quora Discussion][https://www.quora.com/Which-EC2-instance-is-better-Linux-AMI-or-Ubuntu]
+What is the different between EC2 Ubuntu and Linus-AMIs Instances: 
+> Who and how maintained
+> Preinstalled tools
+> Depends on technology being used 
+
+[Quora Discussion](https://www.quora.com/Which-EC2-instance-is-better-Linux-AMI-or-Ubuntu)
 
 #### Step2: Configure your Instance
 
@@ -144,7 +149,11 @@ Follow the suggested steps until you see your image booting up:
 Notice that we can have a lot of information about the instance, in particular:
 
 - it's DNS name and IP address
-**Check:** What is an IP address?
+**Check:** What is an IP address? What does it identify?
+**Try:** 
+```bash
+$ nslookup google.com 
+```
 > Answer: It's the address at which we can reach our machine
 - They type of instance
 - The key necessary to connect
