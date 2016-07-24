@@ -5,8 +5,8 @@ Objective:
 - Enable students to complete lessons and labs on AWS without running up a bill, students will need access to their AWS educational credits. 
 - Instructions for this are as follows in Part I and Part II below. Please complete each step of each part.
 
-## Part 1: Retrive your Unique URL from Slack
-1. All Students should have received a unique sign-up URL via Slack. 
+## Part 1: Retrive your Unique URL from Slack or Email
+1. All Students should have received a unique sign-up URL via Slack or Email. 
 - The URL will look similar to this: https://www.awseducate.com/Application?apptype=student&inst=GA-Data-Science&promoCode=[some_alpha_numeric]
 2. URLs are unique for each student, so don't share them with anyone else.
 3. If there are problems, please slack or email your instructional team
