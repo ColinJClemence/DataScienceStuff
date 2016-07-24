@@ -241,6 +241,8 @@ Wow, great! We have learned to request and access computing power and storage as
 
 [AWSCLI](https://github.com/aws/aws-cli) is a unified command line interface to Amazon Web Services. It allows us to control most of AWS services from the same command line interface.
 
+[AWSCLI Set-up Tutorial](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html)
+
 **Check:** Why is that useful? Why is that powerful? Can you give some examples?
 > e.g. to be able to programatically turn instances on and off or to create complex architectures or to provision clusters in response to a demand
 
