@@ -133,6 +133,8 @@ Let's go ahead and follow the [tutorial for EC2](https://aws.amazon.com/getting-
 ![](./assets/images/launch-instance.png)
 
 
+Ubuntu versus Linus-AMIs: [Quora Discussion][https://www.quora.com/Which-EC2-instance-is-better-Linux-AMI-or-Ubuntu]
+
 #### Step2: Configure your Instance
 
 Follow the suggested steps until you see your image booting up:
