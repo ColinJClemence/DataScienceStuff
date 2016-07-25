@@ -7,15 +7,17 @@ creator:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS Relational Database Service (RDS)
-Week 8 | Lesson 1.3
+Week 8 | Lesson & Lab 1.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
 - use AWS set up configuration for RDS
-- spin up a postgreSQL instance
+- launch a postgreSQL instance
+- copy databases between rds, your local environment, and/or ec2 instance
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
+- sign up for AWS account
 - sign in to your AWS console
 - understand remote and local databases
 
@@ -38,43 +40,23 @@ Note: This lab requiress additional prep in order to run successfully:
 |:-:|---|---|
 | 5 min | [Opening](#opening) | Opening |
 | 5 min | [Introduction](#introduction) | Intro to EMR |
-| 15 min | [Guided-practice](#guided-practice) | EMR cluster |
-| 5 min | [Ind-practice](#ind-practice) | EMR cluster |
-| 20 min | [Guided-practice](#guided-practice) | Configure Web Connection |
-| 20 min | [Guided-practice](#guided-practice) | Hadoop User Environment [HUE] |
-| 10 min | [Ind-practice](#ind-practice) | Independent practice |
-| 5 min | [Conclusion](#conclusion) | Conclusion |
+
 
 <a name="opening"></a>
 ## Opening (5 min)
 
-In less 2.1 we have discovered 2 very important AWS services: EC2 and S3. Today we will see how to spin up a compute cluster on Amazon. 
+In less 1.2 we have discovered 2 very important AWS services: EC2 and S3. Today we will see how to launch relational databases in AWS
 
-**Check:** What is a cluster?
+**Check:** Why are databases important to the data science process? 
 > Answer: a cluster is a set of several computers communicating with one another and working together to solve a problem.
 
-**Check:** What is a typical topology for a Big Data computing cluster?
-> Answer: a compute cluster generally has a star topology, with one master node and several job and task nodes.
-
 <a name="introduction"></a>
-## Intro to EMR (5 min)
+## Intro to RDS (5 min)
 
-Amazon Elastic MapReduce was introduce in April 2009 to automate _provisioning_ of the Hadoop cluster, running and terminating jobs, and handling data transfer between EC2(VM) and S3(Object Storage). It simplifies the management of a Hadoop cluster, making it available to anyone at the click of a button.
+Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, including Amazon Aurora, Oracle, Microsoft SQL Server, PostgreSQL, MySQL and MariaDB.
 
-EMR offers several pre-installed software packages including:
-
-- Hadoop
-- HBase
-- Pig
-- Hive
-- Hue
-- Spark
-and many others.
-
-EMR also supports spot Instances since 2011. It is recommended to only run the Task Instance Group on spot instances to take advantage of the lower cost while maintaining availability.
-
-**Check:** Which of these have you already encountered on your local VM?
-> Hadoop, Hive
+**Check:** Where have you seen rds previously in projects and class work?
+> RDS databases were set up by GA in prios exercises and projects. You all have connected to an RDS database so the syntax is not new to you.
 
 
 ### EMR Pricing
