@@ -122,7 +122,7 @@ There's a lot more to it, that you'll discover in time, here are some pointers y
 > Answer: e.g. if we are running IPython notebook on the instance and want to reach it from a browser.
 
 <a name="ind-practice"></a>
-## AWS Elastic IPs  
+# AWS Elastic IPs  
 
 [Elastic IPs](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/elastic-ip-addresses-eip.html): we can rent a fixed IP address and associate it to our instance. This way we can configure tools to always connect to the same address, independently of which machine is behind it.
 
@@ -130,7 +130,7 @@ There's a lot more to it, that you'll discover in time, here are some pointers y
 > Answer: e.g. if we want to automate ssh connection with a configuration file.
 
 <a name="demo"></a>
-## Intro Elastic Compute Cloud [EC2] - About
+# Intro Elastic Compute Cloud [EC2] - About
 
 The first service we will discover is _Elastic Compute Cloud_ or _EC2_. 
 
@@ -192,7 +192,7 @@ This is a good [IAM Tutorial](https://aws.amazon.com/getting-started/tutorials/b
 **Note:** When attaching a Policy you can be more restrictive and only give the user permission to use the services you intend him/her to use.
 
 <a name="demo"></a>
-## Intro Simple Storage Service [S3] (5 min)
+# Intro Simple Storage Service [S3] (5 min)
 
 Let's learn how we can store data in the cloud too.
 
@@ -200,9 +200,8 @@ Amazon S3 (Simple Storage Service) is an online file storage. It provides storag
 
 Objects are organized into buckets (each owned by an Amazon Web Services account), and identified within each bucket by a unique, user-assigned key. Buckets and objects can be created, listed, and retrieved using either a REST-style HTTP interface or a SOAP interface. Additionally, objects can be downloaded using the HTTP GET interface and the BitTorrent protocol.
 
-
 <a name="ind-practice"></a>
-# Independent Practice and Lab with S3
+## Independent Practice and Lab with S3
 ## Simple Storage Service [S3] (5 min)
 
 Let's navigate from the AWS console to S3 product in the Storage category. 
@@ -218,14 +217,12 @@ In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getti
     **Bonus 1:** Create a folder in our bucket and upload a csv file
     **Bonus 2:** Delete folders and buckets in the AWS cosole
 
-
 <a name="conclusion"></a>
-## Conclusion (5 min)
+# Conclusion (5 min)
 
 In this lesson we have learned about 2 fundamental Amazon web services: Elastic Cloud Compute and Simple Storage Service. These 2 services are so common because they provide on demand computation and storage at a very affordable cost.
 
 Tomorrow, we will launch your first "Computing as a Service" instance. 
-
 
 ### ADDITIONAL RESOURCES
 
