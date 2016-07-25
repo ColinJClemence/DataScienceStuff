@@ -152,7 +152,7 @@ You got it! Use the log!
 
 
 
-### Finger Exercise 1.1.2 - Compute the Log-likelihood of the joint Bernoulli distribution
+### Compute the Log-likelihood of the joint Bernoulli distribution
 
 Instructions: Similar to Finger Exercise 1.1.1, we're going to ask you to find the MLE of a population parameter for some well-used distributions.
 
@@ -164,13 +164,9 @@ Take the log of the Bernoulli joint distribution and see how far you can go in s
 
 > If the student is unfamiliar, [go through some earlier lessons and have them watch some videos](https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/properties-of-logarithms/v/introduction-to-logarithm-properties)
 
-### Finger Exercise 1.1.3 - Computing the MLE for parameters
+### Computing the MLE for parameters
 
 Find the MLE of the mean parameter for a Poisson distribution
-
-> Instructor's Solution: Remember, you should probably utilize [Wolfram Alpha](https://www.wolframalpha.com/), to help show steps for some of the more esoteric steps in calculus. This tool can be leveraged to great effect, I've tested it on some people and was amazed how quickly they were able to leverage it's power to learn some tricky mathematical steps. This and the finger exercise below are basically just Left-hand side (LHS)/right-hand side (RHS) "proofs". Just start with the LHS, know which identities to utilize, and massage the form to get the RHS.
-
-**PROOF**: Start by defining our Poisson counts, remember, the Poisson distribution will be a finite sequence, representing observations given within a specified length of time. Therefore if we define the counts as `$C = c_1, c_2,...,c_n`, we have the following - `$$\sum_i^{n} ln(P(C|\mu))=\sum_i^n (e^{-\mu}\frac{\mu^{c_i}}{c_i!})$$`
 
 > Note: This is just taking the log on "both sides" - but you're really just taking the log of a bunch of products, which makes it into *a sum of logs*, and we're just doing it for the formula for Poisson.
 
