@@ -11,7 +11,7 @@ Week 8 | Lesson 1.2
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
-- explain AWS offerings and which ones are relevant to data science
+- explain what services AWS offers and which ones are relevant to data science
 - start and terminate an EC2 instance in the cloud
 - store and download data from an S3 bucket
 
@@ -94,18 +94,16 @@ The first service we will discover is _Elastic Compute Cloud_ or _EC2_. This ser
 - **Instance**: virtual machine hosted in Amazon Cloud running the software we want
 - **Amazon Machine Image (AMI)**: a snapshot of a configured machine that we can use as starting point to boot an instance. We can also save a running instance to a new AMI so that in the future we can boot a new machine with identical configuration.
 - **SSH Key**: [pair of keys](https://en.wikipedia.org/wiki/Public-key_cryptography) necessary to connect to an instance remotely. The private key will be downloaded to our laptop, the matching public key will be automatically configured on the instance.
-    - Directions for moving your AWS key pair into .ssh directory
+    - You may get an error if the location of your ssh key is too restrictive or too open. Change the level of ownership:
     ```bash
-    mkdir -p ~/.ssh  # Only if .ssh/ does not exist
-    mv [downloaded key.pem location] ~/.ssh/ 
-    chmod 400 [key.pem]
+    chmod 600 [key.pem]
     ```
 
 The main conceptual shift from using a laptop to running an instance in the cloud is that we should __think of computing power as ephemeral.__ We can request computing power when we need it, do a calculation and dismiss that power as we are done. Input and output will not be stored on the machine, rather stored somewhere else in the cloud (hint: S3). In this sense, computing power is a commodity that we purchase and use in the amount and time that we need.
 
 Let's see how it works.
 
-1) Create a new account on AWS [here](https://aws.amazon.com/) or log in to an exsiting one
+1) Create a new account on AWS [here](https://aws.amazon.com/)
 
 It will ask you for contact information and credit card. Do not worry, most of the thing we will do are free for first time users and when we will use paying services it won't likely cost more than 10$.
 
@@ -219,11 +217,30 @@ There's a lot more to it, that you'll discover in time, here are some pointers y
 > Answer: e.g. if we want to automate ssh connection with a configuration file.
 
 <a name="demo"></a>
+## Simple Storage Service [S3] (5 min)
+
+We have learned how to start and stop an instance in the cloud. That's great, because it gives us "computing power as a service". Now let's learn how we can store data in the cloud too.
+
+Amazon S3 (Simple Storage Service) is an online file storage. It provides storage through web services interfaces (REST, SOAP, and BitTorrent) using an _object storage architecture_. According to Amazon, S3's design aims to provide scalability, high availability, and low latency at commodity costs.
+
+Objects are organized into buckets (each owned by an Amazon Web Services account), and identified within each bucket by a unique, user-assigned key. Buckets and objects can be created, listed, and retrieved using either a REST-style HTTP interface or a SOAP interface. Additionally, objects can be downloaded using the HTTP GET interface and the BitTorrent protocol.
+
+
+<a name="ind-practice"></a>
+## Simple Storage Service [S3] (5 min)
+
+In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
+
+The steps should be super simple to follow. Any questions?
+
+**Check:** what's a practical case you can envision using S3 for?
+> Answer: storing input dataset, storing result tables. It's like Dropbox
+
+
+<a name="demo"></a>
 ## AWS Command Line [AWSCLI] (5 min)
 
 Wow, great! We have learned to request and access computing power and storage as a service through AWS. Wouldn't it be nice to be able to do this in a quick way from the command line? Yeah! Let's introduce AWSCLI!
-
-*Check*: Do you have a running ec2 instance before moving to the AWSCLI? 
 
 [AWSCLI](https://github.com/aws/aws-cli) is a unified command line interface to Amazon Web Services. It allows us to control most of AWS services from the same command line interface.
 
@@ -236,18 +253,14 @@ Wow, great! We have learned to request and access computing power and storage as
 <a name="ind-practice"></a>
 ## AWS Command Line [AWSCLI] (15 min)
 
-Let's go ahead and follow the [tutorial for AWSCLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html)
-- Use case for setting up AWSCLI tools is that you will be able to Backup Files to Amazon S3 using the AWS CLI
-- Linux AMI will come with the tools pre-installed
-- Ubuntu instances, you must install these tools: [Install the AWS CLI Using the Bundled Installer (Linux, OS X, or Unix)](http://docs.aws.amazon.com/cli/latest/userguide/installing.html#install-bundle-other-os)
+Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+
 
 ### Steps to complete
 
 #### Step 1: Create an AWS IAM User
 
 In order to use the command line we will have to configure a set of access credentials on our laptop. It's very important to create a separate identity with limited permissions instead of using our root account credentials.
-
-This is a good [IAM Tutorial](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/) within the context of being able to interact with s3 from the command line
 
 **Check:** why is this so important?
 > Answer: so that we can limit the damage a user could do if he/she were to obtain our credentials
@@ -261,12 +274,19 @@ This is a good [IAM Tutorial](https://aws.amazon.com/getting-started/tutorials/b
 
 #### Step 2: Install and Configure the AWS CLI
 
+
 http://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 Note that one of the method is to simply use `pip` to install the AWSCLI.
 
 **Note:** If you already have AWSCLI configured and you would like to have multiple roles, you can do that as explained [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html).
 
+#### Step 3: Using the AWS CLI with Amazon S3
+
+Now you can go ahead and copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
+
+
+Here's a [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
 
 <a name="guided_practice"></a>
 ## EC2 from the command line (15 min)
@@ -341,7 +361,7 @@ aws ec2 describe-images --image-ids ami-9abea4fb --region us-west-2
 
 #### 4. Launch spot instance
 
-You're now ready to sumbit the spot instance request, plug in relevant ids below and run in your terminal:
+You're now ready to sumbit the spot instance request:
 
 ```bash
 aws ec2 request-spot-instances \
@@ -396,36 +416,6 @@ aws ec2 terminate-instances --instance-ids i-0aa55cd3363b0f187
 
 Et Voilà!
 
-<a name="demo"></a>
-## Simple Storage Service [S3] (5 min)
-
-We have learned how to start and stop an instance in the cloud. That's great, because it gives us "computing power as a service". Now let's learn how we can store data in the cloud too.
-
-Amazon S3 (Simple Storage Service) is an online file storage. It provides storage through web services interfaces (REST, SOAP, and BitTorrent) using an _object storage architecture_. According to Amazon, S3's design aims to provide scalability, high availability, and low latency at commodity costs.
-
-Objects are organized into buckets (each owned by an Amazon Web Services account), and identified within each bucket by a unique, user-assigned key. Buckets and objects can be created, listed, and retrieved using either a REST-style HTTP interface or a SOAP interface. Additionally, objects can be downloaded using the HTTP GET interface and the BitTorrent protocol.
-
-
-<a name="ind-practice"></a>
-# Independent Practice and Lab with S3
-## Simple Storage Service [S3] (5 min)
-
-Complete the two tasks below in groups: 
-
-1. In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
-    The steps should be super simple to follow. Any questions?
-
-    **Check:** what's a practical case you can envision using S3 for?
-    > Answer: storing input dataset, storing result tables. It's like Dropbox
-    
-    **Bonus 1:** Create a folder in our bucket and upload a csv file
-    **Bonus 2:** Delete folders and buckets in the AWS cosole
-
-2. Using the AWS CLI with Amazon S3
-
-AWS products allow you to go back and forth between products in the command line. You are able to copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
-
-Find the command to show the recent s3 bucket you created: Use the [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
 
 <a name="conclusion"></a>
 ## Conclusion (5 min)
