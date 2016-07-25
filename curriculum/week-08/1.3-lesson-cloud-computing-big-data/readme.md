@@ -40,7 +40,6 @@ This week requires additional prep in order to successfully run lessons and labs
 | 20 min | [Introduction](#introduction) | Intro to Cloud Computing|
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
-
 <a name="opening"></a>
 ## Opening (5 min)
 
@@ -62,7 +61,6 @@ __Big data__ is a hot topic nowadays. It refers to techniques and tools that all
 - any large company server logs
 - photos & images
 - etc...
-
 
 <a name="introduction"></a>
 ## Big Data Definition
@@ -118,6 +116,12 @@ Instead of one huge machine, what if we got a bunch of regular (commodity) machi
 
 The term Big Data refers to the latter case, where commodity hardware with unlimited scalability is used to solve highly parallelizable problems.
 
+## Interesting Case Study
+
+Think Pair and Share: 
+    Read through the article and discuss 
+    [Pharma Research](http://arstechnica.com/business/2011/09/30000-core-cluster-built-on-amazon-ec2-cloud/)
+
 ## How does Cloud Computing Make a Difference?
 
 Cloud computing institued major changes in mindset of leadership, teams, and technical capacity. It changed how technical teams and aspect interact with the rest of the organization, including: 
@@ -130,6 +134,8 @@ Cloud computing institued major changes in mindset of leadership, teams, and tec
 [Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 
 ## Translate These Ideas Further for Organizations 
+
+Read and keep these [11 Advantage of Cloud Computing for Businesses](https://www.skyhighnetworks.com/cloud-security-blog/11-advantages-of-cloud-computing-and-how-your-business-can-benefit-from-them/)
 
 - Technical resources are disposible (instead of fixed)
 - Flexible installationtiation of Compute Resources (like waterfall versus agile), including integration, monitoring, severless architecture
@@ -161,5 +167,7 @@ In this class we discussed how cloud computing is tied with big data. We will im
 
 ### ADDITIONAL RESOURCES
 - [Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
+- [Cracking the Cloud - AWS Primer](http://arstechnica.com/uncategorized/2012/03/cracking-the-cloud-an-amazon-web-services-primer/)
+- [Another AWS Tutorial](http://www.analyticsvidhya.com/blog/2016/05/complete-tutorial-work-big-data-amazon-web-services-aws/)
 
 
