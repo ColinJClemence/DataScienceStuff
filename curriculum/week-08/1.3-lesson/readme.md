@@ -130,11 +130,11 @@ That's a (sort of) bummer, because if we wanted to get the derivative of `p`, we
 
 Actually, this isn't really that hard, but because we're humans, and not computers, our squishy brains don't like to deal with a long string of slightly different symbols, we much rather deal with long strings of more or less similar symbols. So someone a long time ago (probably a Frenchmen), came up with a work-around.
 
-## Guided Practice: Finger Exercise 1.1.1 - Thinking about the product rule (35 mins)
+## Guided Practice: Thinking about the product rule (35 mins)
 
 Instructions: Show (formally or informally) that the product rule for derivatives applied to `r` terms will yield a summand of r-terms. This can be shown formally by mathematical induction, but if you don't have that background, just reason by taking the definition and applying it first to 3 terms, then 4, then 5, and so on.
 
-**Check**: Perform the finger exercise 1.1.1 and discuss results in pairs.
+**Check**: Perform and discuss results in pairs.
 
 Was that really so hard? Do we need a work-around?
 
