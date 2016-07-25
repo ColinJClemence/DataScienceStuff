@@ -13,8 +13,8 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 3:30-5 | [AWS Lab I: EC2, S3][8-1BB] & [AWS Lab II: RDS][8-1CC]     | [Bayes Case Study 2][8-2E]          | [LDA & API Data Lab][8-3E]         | [Naive Bayes Lab][8-4E]        | [Capstone Pt 2: Workshop][8-5E]
 
 [8-1AA]: 1.1-pc-lesson-intro-cloud-computing
-[8-1BB]: 1.2-pc-lab-aws-s3-ec2
-[8-1CC]: 1.3-pc-lab-rds-hdfs
+[8-1BB]: 1.4-pc-lab-aws-s3-ec2
+[8-1CC]: 1.5-pc-lab-rds-hdfs
 
 [8-1A]: ./instructor-contributions/
 [8-1B]: 1.1-lesson
