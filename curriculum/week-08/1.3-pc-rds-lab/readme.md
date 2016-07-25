@@ -73,7 +73,7 @@ Let's create our first RDS instance together [tutorials provided by Amazon here]
 
 #### 1. Prerequisites
 
-Let's first log-in to AWS and go to the EMR service page:
+Let's first log-in to AWS and go to the RDS service page:
 
 ![](./assets/images/rds.png)
 
@@ -95,7 +95,7 @@ Let's follow the tutorial by Amazon Part II: [Connecting to a PostgreSQL DB Inst
 
 There are two ways to connect to the database created in RDS:
 	1. pgAdmin (see image below for configuration examples)
-	![](./assets/images/pgadmin_connection.png)
+	![](./assets/images/rds_pgadmin.png)
 
 	2. psql 
 	
