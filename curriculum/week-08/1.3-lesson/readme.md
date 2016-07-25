@@ -45,10 +45,6 @@ Week 8 | 1.3
 <a name="opening"></a>
 ## Opening - 1.1 Finding the global maxima (5 mins)
 
-> **ATTENTION IMPORTANT INSTRUCTOR NOTES:** I have noted that the students entering in the first class may actually really struggle with some of this mathematics for whatever reason. I have attempted to really try to reduce the material's complexity as much as possible. However, the topic is what it is, you can't really get around mathematics when dealing with Bayes. Therefore, I suggest that you utilize this very handy tool: https://www.wolframalpha.com/.
-
-> This is basically an online instance of Mathematica, but on crazy steroids. You can actually use natural language to type "take the derivative of ___formula____" and Wolfram Alpha will try to understand what you're saying and actually execute (and show steps). This may prove to be a godsend for any students who are struggling/forgotten these critical skills, and will help them get back up to speed, if they are diligent and play around with it.
-
 Before we introduce the topic of *maxima* and *minima*, we'll mention some resources to review basic derivatives.
 
 - [Khan Academy lectures/notes on basic differentiation](https://www.khanacademy.org/math/differential-calculus/taking-derivatives)
