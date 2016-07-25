@@ -1,6 +1,6 @@
 ---
 title: Intro to Cloud Compting & Big Data
-duration: "1:25"
+duration: "1:00"
 creator:
     name: Pauline Chow & Francesco Mosconi
     city: LA & SF
