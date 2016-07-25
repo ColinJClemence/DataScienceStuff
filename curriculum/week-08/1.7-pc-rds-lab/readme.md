@@ -66,7 +66,7 @@ Use the [AWS cost calculator](https://calculator.s3.amazonaws.com/index.html) to
 > Answer: Database storage and maintainece are common overhead costs that business must incur to stay competitive and relevant.
 
 <a name="guided-practice"></a>
-## Guided Practice:
+# Guided Practice:
 ## RDS creation instance (15 min)
 
 Let's create our first RDS instance together [tutorials provided by Amazon here](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.html).
@@ -87,8 +87,8 @@ Through the tutorial we will be:
 - View advanced settings 
 - *Note: Choose development instead of production to remain in the free tier
 
-<a name="guided-practice"></a>
-## Guided Practice
+<a name="ind-practice"></a>
+# Independent Practice
 ## Connecting to a PostgreSQL DB Instance (15 min)
 
 Let's follow the tutorial by Amazon Part II: [Connecting to a PostgreSQL DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html)
@@ -108,13 +108,26 @@ There are two ways to connect to the database created in RDS:
 		psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 --username=awsuser --password --dbname=mypgdb 
 		```
 
-<a name="guided-practice"></a>
+<a name="ind-practice"></a>
 ## Connecting between sources through the command line (20 min)
 
----
+[Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html)
+
+If you have data in a PostgreSQL server on an Amazon EC2 instance and want to move it to a PostgreSQL DB instance, you can use the following process. The following list shows the steps to take. Each step is discussed in more detail in the following sections.
+
+1. Create a file using pg_dump that contains the data to be loaded
+2. Create the target DB instance
+3. Use psql to create the database on the DB instance and load the data
+4. Create a DB snapshot of the DB instance
+
+**Think Pair and Share:** What is the difference between pg_dump and pg_restore. Find the answer in the linked tututorial: [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) 
 
 <a name="independent-practice"></a>
 ## Exercise: Copy local database to the cloud  (20 min)
+
+**Check:** What postgreSQL databases do you have on your localhost or local environment?
+
+Using steps and documentation from [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) copy a database from your localhost to rds. 
 
 ---
 
