@@ -35,8 +35,8 @@ Week 8 | 1.3
 |:-:|---|---|
 | 5 min  | [Opening](#opening)  | Maximum Likelihood Estimators, Towards Deeper Bayesian Analysis |
 | 10 min  | [Introduction](#introduction)   | Introduction: 1.1 Finding the global maxima  |
-| 15 min  | [Demo](#demo)  | The problem with generalizing - Demo: Topics and Finger Exercises |
-| 35 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Guided Practice:  Finger Exercise 1.1.1 - Thinking about the product rule |
+| 15 min  | [Demo](#demo)  | The problem with generalizing - Demo: Topics |
+| 35 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Guided Practice:  Exercise 1.1.1 - Thinking about the product rule |
 | 25 min  | [Independent Practice](#ind-practice)  | Independent Practice: Problems with the MLE Method |
 | 5 min  | [Review/Recap](#conclusion)  | Topic description  |
 
@@ -116,7 +116,7 @@ Did it work? Uncomment out the plt.axvline in the code above and see!
 
 > Note: This is referring to the commented line: `plt.axvline(x=.55556,color='k',ls='dashed')`
 
-## Demo: The Problem with Generalizing - Topics and Finger Exercises (5 mins)
+## Demo: The Problem with Generalizing - Topics and Exercises (5 mins)
 
 So you've learned a new trick. Great!
 
@@ -144,7 +144,7 @@ So what's the trick we often use in machine learning/statistics, when we have a 
 
 You got it! Use the log!
 
-> Note: These next series of finger exercises may prove difficult depending on the quantitative skill of the class. You may want to just go over a few with them over the board and then have them do one together in groups.
+> Note: These next series of exercises may prove difficult depending on the quantitative skill of the class. You may want to just go over a few with them over the board and then have them do one together in groups.
 
 | Name  | Formula  | Description  |
 |:-:|---|---|
@@ -154,7 +154,7 @@ You got it! Use the log!
 
 ### Compute the Log-likelihood of the joint Bernoulli distribution
 
-Instructions: Similar to Finger Exercise 1.1.1, we're going to ask you to find the MLE of a population parameter for some well-used distributions.
+Instructions: Similar to Exercise 1.1.1, we're going to ask you to find the MLE of a population parameter for some well-used distributions.
 
 Take the log of the Bernoulli joint distribution and see how far you can go in simplifying it.
 
