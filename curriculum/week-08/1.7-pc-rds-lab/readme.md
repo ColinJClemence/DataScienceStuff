@@ -134,9 +134,4 @@ Using steps and documentation from [Importing a PostgreSQL Database from an Amaz
 
 Today we have learned how to start a RDS database instance and share data between different environments.
 
-Consider terminating your cluster now:
-
-
-
-### ADDITIONAL RESOURCES
-
+Consider terminating your instances now. 
