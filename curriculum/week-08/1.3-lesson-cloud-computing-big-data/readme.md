@@ -6,7 +6,7 @@ creator:
     city: LA & SF
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Cloud Computing 
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Cloud Computing & Big Data
 Week 8 | Lesson 1.1
 
 ### LEARNING OBJECTIVES
