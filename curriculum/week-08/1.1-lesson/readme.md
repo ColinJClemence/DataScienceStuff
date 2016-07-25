@@ -33,7 +33,7 @@ Week 8 | 1.1
 | 5 min  | [Opening](#opening)  | Topic description  |
 | 10 min  | [Introduction](#introduction)   | Topic description  |
 | 15 min  | [Demo](#demo)  | Topic description  |
-| 25 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Topic description  |
+| 25 min  | [Guided Practice](#guided-practice)  | Topic description  |
 | 25 min  | [Independent Practice](#ind-practice)  | Topic description  |
 | 5 min  | [Conclusion](#conclusion)  | Topic description  |
 
