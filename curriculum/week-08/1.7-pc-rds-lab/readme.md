@@ -129,8 +129,6 @@ If you have data in a PostgreSQL server on an Amazon EC2 instance and want to mo
 
 Using steps and documentation from [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) copy a database from your localhost to rds. 
 
----
-
 <a name="conclusion"></a>
 ## Conclusion (5 min)
 
