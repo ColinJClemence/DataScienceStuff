@@ -20,10 +20,10 @@ As we saw in the lesson, building Bayesian models will require us to use common 
 
 |     Distribution  | Probability Mass Function (The Formula)  | Written Description 
 |:-:|---|---|
-| Uniform  | $$\frac{1}{n}$$ |  Basically, a uniform distribution is utilized when you're selecting any one member of a set is just as likely as any other  |
-| Bernoulli   | $$\binom{n}{k}\cdot p^{k}(1-p)^{1-k}$$  | Like a coin flip, p represents the probability that event X occurs, and 1-p is the probability that event Y occurs  |
-| Poisson | $$\frac{e^{-n}n^{x}}{x!}$$ | The probability of observing x events in a certain time interval. e is the Euler number and n is a tuning parameter |
-| Binomial  | $$\binom{n}{k}\cdot p^kq^{n-k}$$ | Gives you the probability of getting k "success" in n iterations/trials
+| Uniform  | $$ \frac{1}{n} $$ |  Basically, a uniform distribution is utilized when you're selecting any one member of a set is just as likely as any other  |
+| Bernoulli   | $$ \binom{n}{k}\cdot p^{k}(1-p)^{1-k} $$  | Like a coin flip, p represents the probability that event X occurs, and 1-p is the probability that event Y occurs  |
+| Poisson | $$ \frac{e^{-n}n^{x}}{x!} $$ | The probability of observing x events in a certain time interval. e is the Euler number and n is a tuning parameter |
+| Binomial  | $$ \binom{n}{k}\cdot p^kq^{n-k} $$ | Gives you the probability of getting k "success" in n iterations/trials
 
 
 Lastly, we will introduce the Beta function, which will be a critical tool to add to our Bayesian reportoire this week.
