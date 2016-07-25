@@ -141,6 +141,12 @@ Cloud computing institued major changes in mindset of leadership, teams, and tec
 
 [Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
 
+Some reason for using the public clouds: 
+
+![](./assets/images/reason_public_cloud.png)
+
+[Cloud Infrastructure pg 45](http://docplayer.net/6426475-Chapter-3-cloud-infrastructure-cloud-computing-theory-and-practice-1.html)
+
 <a name="conclusion"></a>
 ## Conclusion (5 min)
 In this class we discussed how cloud computing is tied with big data. We will implement big data techniques and algorithms next week. The rest of **this** week, the class will set up and configure AWS accounts. 
