@@ -35,8 +35,8 @@ Week 8 | 1.3
 |:-:|---|---|
 | 5 min  | [Opening](#opening)  | Maximum Likelihood Estimators, Towards Deeper Bayesian Analysis |
 | 10 min  | [Introduction](#introduction)   | Introduction: 1.1 Finding the global maxima  |
-| 15 min  | [Demo](#demo)  | The problem with generalizing - Demo: Topics and Finger Exercises |
-| 35 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Guided Practice:  Finger Exercise 1.1.1 - Thinking about the product rule |
+| 15 min  | [Demo](#demo)  | The problem with generalizing - Demo: Topics |
+| 35 min  | [Guided Practice](#guided-practice<a name="opening"></a>)  | Guided Practice:  Exercise 1.1.1 - Thinking about the product rule |
 | 25 min  | [Independent Practice](#ind-practice)  | Independent Practice: Problems with the MLE Method |
 | 5 min  | [Review/Recap](#conclusion)  | Topic description  |
 
@@ -44,10 +44,6 @@ Week 8 | 1.3
 
 <a name="opening"></a>
 ## Opening - 1.1 Finding the global maxima (5 mins)
-
-> **ATTENTION IMPORTANT INSTRUCTOR NOTES:** I have noted that the students entering in the first class may actually really struggle with some of this mathematics for whatever reason. I have attempted to really try to reduce the material's complexity as much as possible. However, the topic is what it is, you can't really get around mathematics when dealing with Bayes. Therefore, I suggest that you utilize this very handy tool: https://www.wolframalpha.com/.
-
-> This is basically an online instance of Mathematica, but on crazy steroids. You can actually use natural language to type "take the derivative of ___formula____" and Wolfram Alpha will try to understand what you're saying and actually execute (and show steps). This may prove to be a godsend for any students who are struggling/forgotten these critical skills, and will help them get back up to speed, if they are diligent and play around with it.
 
 Before we introduce the topic of *maxima* and *minima*, we'll mention some resources to review basic derivatives.
 
@@ -116,7 +112,7 @@ Did it work? Uncomment out the plt.axvline in the code above and see!
 
 > Note: This is referring to the commented line: `plt.axvline(x=.55556,color='k',ls='dashed')`
 
-## Demo: The Problem with Generalizing - Topics and Finger Exercises (5 mins)
+## Demo: The Problem with Generalizing - Topics and Exercises (5 mins)
 
 So you've learned a new trick. Great!
 
@@ -144,7 +140,7 @@ So what's the trick we often use in machine learning/statistics, when we have a 
 
 You got it! Use the log!
 
-> Note: These next series of finger exercises may prove difficult depending on the quantitative skill of the class. You may want to just go over a few with them over the board and then have them do one together in groups.
+> Note: These next series of exercises may prove difficult depending on the quantitative skill of the class. You may want to just go over a few with them over the board and then have them do one together in groups.
 
 | Name  | Formula  | Description  |
 |:-:|---|---|
@@ -154,7 +150,7 @@ You got it! Use the log!
 
 ### Compute the Log-likelihood of the joint Bernoulli distribution
 
-Instructions: Similar to Finger Exercise 1.1.1, we're going to ask you to find the MLE of a population parameter for some well-used distributions.
+Instructions: Similar to Exercise 1.1.1, we're going to ask you to find the MLE of a population parameter for some well-used distributions.
 
 Take the log of the Bernoulli joint distribution and see how far you can go in simplifying it.
 

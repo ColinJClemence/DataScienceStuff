@@ -6,7 +6,7 @@ creator:
     city: LA & SF
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Big Data & Cloud Computing
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Cloud Computing & Big Data
 Week 8 | Lesson 1.1
 
 ### LEARNING OBJECTIVES
@@ -95,8 +95,7 @@ Supercomputers are very expensive, very powerful calculators used by researchers
 - difficult to maintain
 - scalability is bounded
 
-
-### Cloud Computing
+#Intro to Cloud Computing
 
 This week is focused on getting you all set up in Cloud Computing. 
 
@@ -119,6 +118,29 @@ Instead of one huge machine, what if we got a bunch of regular (commodity) machi
 
 The term Big Data refers to the latter case, where commodity hardware with unlimited scalability is used to solve highly parallelizable problems.
 
+## How does Cloud Computing Make a Difference?
+
+Cloud computing institued major changes in mindset of leadership, teams, and technical capacity. It changed how technical teams and aspect interact with the rest of the organization, including: 
+- IT Assets become Programmable Resources
+- Technical resources are global, available, and unlimited in capacity
+- Access to all levels of services
+- Built in security
+- Option to scale vertically and horizontally
+
+[Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
+
+## Translate These Ideas Further for Organizations 
+
+- Technical resources are disposible (instead of fixed)
+- Flexible installationtiation of Compute Resources (like waterfall versus agile), including integration, monitoring, severless architecture
+- Infrastructure is now code too 
+- Automation
+- Anti-Pattern data models and databases
+- Removing single point failure
+- Introducing Redundancy 
+
+[Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
+
 <a name="conclusion"></a>
 ## Conclusion (5 min)
 In this class we discussed how cloud computing is tied with big data. We will implement big data techniques and algorithms next week. The rest of **this** week, the class will set up and configure AWS accounts. 
@@ -133,6 +155,5 @@ In this class we discussed how cloud computing is tied with big data. We will im
 
 ### ADDITIONAL RESOURCES
 - [Architecting in the Cloud: AWS Best Practices](https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf)
-- 
 
 
