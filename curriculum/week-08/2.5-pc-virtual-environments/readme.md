@@ -72,11 +72,10 @@ It’s important to know this because, by default, every project on your system 
 What are the compelling reason to use virtual environments for indivdiual projects?
 
 >Answer: 
-> - python cannot distinguish between different 
+- python cannot distinguish between different 
 versions of "site-packages" 
-> - not all projects will use the same version of packages or packages with the sample dependencies
-> - more control & less unexpected "breaks" in your code or applications
-> -  
+- not all projects will use the same version of packages or packages with the sample dependencies
+- more control & less unexpected "breaks" in your code or applications
 
 <a name="details-venv"></a>
 # Example of directory with virtual environment
