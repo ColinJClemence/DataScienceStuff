@@ -94,10 +94,6 @@ The first service we will discover is _Elastic Compute Cloud_ or _EC2_. This ser
 - **Instance**: virtual machine hosted in Amazon Cloud running the software we want
 - **Amazon Machine Image (AMI)**: a snapshot of a configured machine that we can use as starting point to boot an instance. We can also save a running instance to a new AMI so that in the future we can boot a new machine with identical configuration.
 - **SSH Key**: [pair of keys](https://en.wikipedia.org/wiki/Public-key_cryptography) necessary to connect to an instance remotely. The private key will be downloaded to our laptop, the matching public key will be automatically configured on the instance.
-    - You may get an error if the location of your ssh key is too restrictive or too open. Change the level of ownership:
-    ```bash
-    chmod 600 [key.pem]
-    ```
 
 The main conceptual shift from using a laptop to running an instance in the cloud is that we should __think of computing power as ephemeral.__ We can request computing power when we need it, do a calculation and dismiss that power as we are done. Input and output will not be stored on the machine, rather stored somewhere else in the cloud (hint: S3). In this sense, computing power is a commodity that we purchase and use in the amount and time that we need.
 
