@@ -44,10 +44,10 @@ For Tomorrow: [Download and install Virtual Machine](../VM-installation.md).
 | 10 min | [Introduction](#introduction) | Intro to AWS |
 | 5 min | [Demo](#demo) | Demo: Elastic Compute Cloud [EC2] |
 | 15 min | [Ind-practice](#ind-practice) | Elastic Compute Cloud [EC2] |
-| 5 min | [Demo](#demo) | Simple Storage Service [S3] |
-| 5 min | [Ind-practice](#ind-practice) | Simple Storage Service [S3] |
-| 5 min | [Demo](#demo) | AWS Command Line [AWSCLI] |
-| 15 min | [Ind-practice](#ind-practice) | AWS Command Line [AWSCLI] |
+| 5 min | [Demo](#demo-s3) | Simple Storage Service [S3] |
+| 5 min | [Ind-practice](#ind-practice-s3) | Simple Storage Service [S3] |
+| 5 min | [Demo](#demo-awscli) | AWS Command Line [AWSCLI] |
+| 15 min | [Ind-practice](#ind-practice-awscli) | AWS Command Line [AWSCLI] |
 | 15 min | [Guided](#guided_practice) | EC2 from the command line |
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
@@ -212,7 +212,7 @@ There's a lot more to it, that you'll discover in time, here are some pointers y
 **Check:** can you give a practical use case?
 > Answer: e.g. if we want to automate ssh connection with a configuration file.
 
-<a name="demo"></a>
+<a name="demo-s3"></a>
 ## Simple Storage Service [S3] (5 min)
 
 We have learned how to start and stop an instance in the cloud. That's great, because it gives us "computing power as a service". Now let's learn how we can store data in the cloud too.
@@ -222,7 +222,7 @@ Amazon S3 (Simple Storage Service) is an online file storage. It provides storag
 Objects are organized into buckets (each owned by an Amazon Web Services account), and identified within each bucket by a unique, user-assigned key. Buckets and objects can be created, listed, and retrieved using either a REST-style HTTP interface or a SOAP interface. Additionally, objects can be downloaded using the HTTP GET interface and the BitTorrent protocol.
 
 
-<a name="ind-practice"></a>
+<a name="ind-practice-s3"></a>
 ## Simple Storage Service [S3] (5 min)
 
 In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
@@ -233,7 +233,7 @@ The steps should be super simple to follow. Any questions?
 > Answer: storing input dataset, storing result tables. It's like Dropbox
 
 
-<a name="demo"></a>
+<a name="demo-awscli"></a>
 ## AWS Command Line [AWSCLI] (5 min)
 
 Wow, great! We have learned to request and access computing power and storage as a service through AWS. Wouldn't it be nice to be able to do this in a quick way from the command line? Yeah! Let's introduce AWSCLI!
@@ -246,7 +246,7 @@ Wow, great! We have learned to request and access computing power and storage as
 > e.g. to be able to programatically turn instances on and off or to create complex architectures or to provision clusters in response to a demand
 
 
-<a name="ind-practice"></a>
+<a name="ind-practice-awscli"></a>
 ## AWS Command Line [AWSCLI] (15 min)
 
 ***Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
