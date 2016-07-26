@@ -121,7 +121,7 @@ conda create --name $ENVIRONMENT_NAME python
 
 ## Activate and deactive virtual environments
 
-	### Activate virtual environments 
+### Activate virtual environments 
 	
 	pip package manager start
 	```bash
@@ -137,7 +137,7 @@ conda create --name $ENVIRONMENT_NAME python
 	source activate $ENVIRONMENT_NAME
 	```
 
-	### Deactivate virtual environment
+### Deactivate virtual environment
 
 	stop environments in any package manager
 	
