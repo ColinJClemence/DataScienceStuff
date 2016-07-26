@@ -174,6 +174,13 @@ Later it will be easier for a different developer (or you, if you need to re-cre
 ```
 pip install -r requirements.txt
 ```
+
+Conda package manager 
+
+```
+conda list -e > req.txt
+```
+
 Good practice: upload requirements.txt to github project. However, exclude the virtual environment folder from source control by adding it to the ignore list.
 
 <a name="conclusions"></a>
