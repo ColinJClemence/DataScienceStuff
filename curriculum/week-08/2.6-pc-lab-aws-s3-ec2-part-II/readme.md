@@ -2,8 +2,8 @@
 title: AWS Amazon Web Services
 duration: "1:25"
 creator:
-    name: Francesco Mosconi
-    city: SF
+    name: Francesco Mosconi & Pauline Chow
+    city: SF & LA
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS: Amazon Web Services
@@ -14,6 +14,7 @@ Week 8 | Lesson 1.2
 - explain what services AWS offers and which ones are relevant to data science
 - start and terminate an EC2 instance in the cloud
 - store and download data from an S3 bucket
+- configure your instance in the cloud & run script (from github repo) 
 
 ### STUDENT PRE-WORK
 *Before this lesson, you should already be able to:*
@@ -49,6 +50,7 @@ For Tomorrow: [Download and install Virtual Machine](../VM-installation.md).
 | 5 min | [Demo](#demo-awscli) | AWS Command Line [AWSCLI] |
 | 15 min | [Ind-practice](#ind-practice-awscli) | AWS Command Line [AWSCLI] |
 | 15 min | [Guided](#guided_practice) | EC2 from the command line |
+| 15 min | [Ind-practice](#ind-exercise-ubuntu) | Create Ubuntu instance independently & run code from configured instance and github code |
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
 
@@ -423,6 +425,21 @@ aws ec2 terminate-instances --instance-ids i-0aa55cd3363b0f187
 ![](./assets/images/terminatedspot.png)
 
 Et Voilà!
+
+<a name="ind-exercise-ubuntu"></a>
+#Independent Exercise (15 mins)
+### Create an Ubuntu EC2 instance 
+
+In this exercise, you will 
+- create an Ubuntu ec2 instance
+- install packages on new instance using requirement.txt (student or instructor generated)
+- clone a git repository 
+- run a script on the instance from the intiatied and cloned git repo
+
+Resources to help create this instance: 
+- Use the directions above 
+- Find outline of steps [here](https://github.com/ga-students/DSI_SM_01/blob/master/curriculum/week-08/2.6-pc-lab-aws-s3-ec2-part-II/outline-aws-ec2-setup.md) 
+- Use 
 
 
 <a name="conclusion"></a>
