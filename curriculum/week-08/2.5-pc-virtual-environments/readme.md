@@ -130,6 +130,7 @@ conda create --name $ENVIRONMENT_NAME python
 	```bash
 	source $ENVIRONMENT_NAME/bin/activate
 	```
+	
 	pip package manager with wrapper start
 	```bash
 	workon $ENVIRONMENT_NAME
@@ -161,13 +162,15 @@ Virtual environments are also useful for keeping your environment consistent. Th
 
 
 It’s a good idea to “freeze” the current state of the environment packages. To do this, run
-```bash
-$ pip freeze > requirements.txt
+
+```
+pip freeze > requirements.txt
 ```
 
 Later it will be easier for a different developer (or you, if you need to re-create the environment) to install the same packages using the same versions:
-```bash
-$ pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
 ```
 Good practice: upload requirements.txt to github project. However, exclude the virtual environment folder from source control by adding it to the ignore list.
 
