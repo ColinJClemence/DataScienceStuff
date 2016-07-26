@@ -7,14 +7,17 @@ This is a summary of the materials provided for Week 8 of the Data Science Immer
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
 9-10 | [Morning Exercise][8-1A]         | [Morning Exercise][8-2A]            | [(Outcomes)][8-3A]                 | [Morning Exercise][8-4A]       | [(Reflection)][8-5A]
-10-11:30 | [Intro to Bayes][8-1B]      | [Linear Regression + Bayes][8-2B]   | [Intro to Requests Library][8-3B]  | [Bayesian Stat Tests][8-4B]    | [Communicating Bayesian Results][8-5B]
-11:30-1 | [Intro to Bayes Lab][8-1C] & [Bayes Case Study 1][8-1E] & [Bayes Deep Dive][8-1D]    | [Logistic Regression + Bayes][8-2C] | [API Lab][8-3C]                    | [Bayesian Stat Testing][8-4C]  | [Capstone Pt 2: Workshop][8-5C]
-2-3:30 | [Intro to Cloud Computing & Big Data][8-1AA]        | [Review Prior Models + Bayes][8-2D] | [Intro to LDA][8-3D]               | [Naive Bayes Lesson][8-4D]     | [Capstone Pt 2: Workshop][8-5D]
-3:30-5 | [AWS Lab I: EC2, S3][8-1BB] & [AWS Lab II: RDS][8-1CC]     | [Bayes Case Study 2][8-2E]          | [LDA & API Data Lab][8-3E]         | [Naive Bayes Lab][8-4E]        | [Capstone Pt 2: Workshop][8-5E]
+10-11:30 | [Intro to Bayes][8-1B]      | [Linear Regression + Bayes][8-2B] & [Logistic Regression + Bayes][8-2C]  | [Intro to Requests Library][8-3B]  | [Bayesian Stat Tests][8-4B]    | [Communicating Bayesian Results][8-5B]
+11:30-1 | [Intro to Bayes Lab][8-1C] & [Bayes Case Study 1][8-1E] & [Bayes Deep Dive][8-1D]    | [Review Prior Models + Bayes][8-2D] & [Bayes Case Study 2][8-2E]   | [API Lab][8-3C]                    | [Bayesian Stat Testing][8-4C]  | [Capstone Pt 2: Workshop][8-5C]
+2-3:30 | [Intro to Cloud Computing & Big Data][8-1AA]        | [Virtual Environments][8-2AA] | [Intro to LDA][8-3D]               | [Naive Bayes Lesson][8-4D]     | [Capstone Pt 2: Workshop][8-5D]
+3:30-5 | [AWS Lab Part I: EC2, S3][8-1BB]     |  [AWS Lab RDS][8-2CC] & [AWS Lab Part II: EC2][8-2BB]     | [LDA & API Data Lab][8-3E]         | [Naive Bayes Lab][8-4E]        | [Capstone Pt 2: Workshop][8-5E]
 
 [8-1AA]: 1.5-lesson-cloud-computing-big-data
 [8-1BB]: 1.6-pc-lab-aws-s3-ec2-part-I
 [8-1CC]: 1.7-pc-rds-lab
+[8-2AA]: 2.5-pc-virtual-environments
+[8-2BB]: 2.6-pc-lab-aws-s3-ec2-part-II
+[8-2CC]: 2.7-pc-rds-lab
 
 [8-1A]: ./instructor-contributions/
 [8-1B]: 1.1-lesson

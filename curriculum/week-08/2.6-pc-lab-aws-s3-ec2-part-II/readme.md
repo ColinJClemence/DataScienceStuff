@@ -44,10 +44,10 @@ For Tomorrow: [Download and install Virtual Machine](../VM-installation.md).
 | 10 min | [Introduction](#introduction) | Intro to AWS |
 | 5 min | [Demo](#demo) | Demo: Elastic Compute Cloud [EC2] |
 | 15 min | [Ind-practice](#ind-practice) | Elastic Compute Cloud [EC2] |
-| 5 min | [Demo](#demo) | Simple Storage Service [S3] |
-| 5 min | [Ind-practice](#ind-practice) | Simple Storage Service [S3] |
-| 5 min | [Demo](#demo) | AWS Command Line [AWSCLI] |
-| 15 min | [Ind-practice](#ind-practice) | AWS Command Line [AWSCLI] |
+| 5 min | [Demo](#demo-s3) | Simple Storage Service [S3] |
+| 5 min | [Ind-practice](#ind-practice-s3) | Simple Storage Service [S3] |
+| 5 min | [Demo](#demo-awscli) | AWS Command Line [AWSCLI] |
+| 15 min | [Ind-practice](#ind-practice-awscli) | AWS Command Line [AWSCLI] |
 | 15 min | [Guided](#guided_practice) | EC2 from the command line |
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
@@ -212,7 +212,7 @@ There's a lot more to it, that you'll discover in time, here are some pointers y
 **Check:** can you give a practical use case?
 > Answer: e.g. if we want to automate ssh connection with a configuration file.
 
-<a name="demo"></a>
+<a name="demo-s3"></a>
 ## Simple Storage Service [S3] (5 min)
 
 We have learned how to start and stop an instance in the cloud. That's great, because it gives us "computing power as a service". Now let's learn how we can store data in the cloud too.
@@ -222,7 +222,7 @@ Amazon S3 (Simple Storage Service) is an online file storage. It provides storag
 Objects are organized into buckets (each owned by an Amazon Web Services account), and identified within each bucket by a unique, user-assigned key. Buckets and objects can be created, listed, and retrieved using either a REST-style HTTP interface or a SOAP interface. Additionally, objects can be downloaded using the HTTP GET interface and the BitTorrent protocol.
 
 
-<a name="ind-practice"></a>
+<a name="ind-practice-s3"></a>
 ## Simple Storage Service [S3] (5 min)
 
 In pairs: go ahead and follow the [tutorial for S3](https://aws.amazon.com/getting-started/tutorials/backup-files-to-amazon-s3/).
@@ -233,7 +233,7 @@ The steps should be super simple to follow. Any questions?
 > Answer: storing input dataset, storing result tables. It's like Dropbox
 
 
-<a name="demo"></a>
+<a name="demo-awscli"></a>
 ## AWS Command Line [AWSCLI] (5 min)
 
 Wow, great! We have learned to request and access computing power and storage as a service through AWS. Wouldn't it be nice to be able to do this in a quick way from the command line? Yeah! Let's introduce AWSCLI!
@@ -246,11 +246,10 @@ Wow, great! We have learned to request and access computing power and storage as
 > e.g. to be able to programatically turn instances on and off or to create complex architectures or to provision clusters in response to a demand
 
 
-<a name="ind-practice"></a>
+<a name="ind-practice-awscli"></a>
 ## AWS Command Line [AWSCLI] (15 min)
 
-Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
-
+***Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
 
 ### Steps to complete
 
@@ -270,10 +269,17 @@ In order to use the command line we will have to configure a set of access crede
 
 #### Step 2: Install and Configure the AWS CLI
 
+A. Install AWS: 
+Note that one of the method is to use `pip` to install the AWSCLI.
 
-http://docs.aws.amazon.com/cli/latest/userguide/installing.html
-
-Note that one of the method is to simply use `pip` to install the AWSCLI.
+- AWS CLI tools come preinstalled in Amazon Linux instances
+- Install AWS CLI tools on Ubuntu instances: 
+    - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
+    ```bash
+    $ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+    $ unzip awscli-bundle.zip
+    $ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+    ```
 
 **Note:** If you already have AWSCLI configured and you would like to have multiple roles, you can do that as explained [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html).
 
@@ -281,8 +287,15 @@ Note that one of the method is to simply use `pip` to install the AWSCLI.
 
 Now you can go ahead and copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
 
-
-Here's a [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
+***Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+> STEP 2: Install and Configure the AWS CLI
+> IAM credentials must be available
+> ssh into ec2 instance
+> "aws configure" in the instance and be prompted to enter:
+    AWS Access ID: 
+    AWS Secret Key: 
+    Default Region Name: (press enter)
+    Default output format: json
 
 <a name="guided_practice"></a>
 ## EC2 from the command line (15 min)
@@ -353,7 +366,6 @@ You can check it by typing:
 ```bash
 aws ec2 describe-images --image-ids ami-9abea4fb --region us-west-2
 ```
-
 
 #### 4. Launch spot instance
 
@@ -430,4 +442,6 @@ We have learned how to use them both from the web interface and from the command
 - [S3](https://aws.amazon.com/s3/?nc2=h_m1)
 - [Tutorials](https://aws.amazon.com/getting-started/tutorials/)
 - [AWS CLI Tutorial](http://www.joyofdata.de/blog/guide-to-aws-ec2-on-cli/)
+- [AWSCLI Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
+
 
