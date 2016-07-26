@@ -37,8 +37,7 @@ Week 8 | Lesson 2.3
 | 10 min | [Guided Practice](#why-venv) | Why virtual environments? |
 | 5 min | [Demo](#details-venv) | Details of Virtual Environments |
 | 10 min | [Demo](#types-venv) | How to Use Virtual Environments?|
-| 10 min | [Guided Practice](#venv-wrappers) | Virtual Environment wrappers |
-| 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configurations|
+| 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configurations |
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
 <a name="opening"></a>
@@ -94,10 +93,12 @@ install through pip package manager
 ```bash
 pip install virtualenv
 ```
+
 install through conda package manager
 ```bash
 conda install virtualenv
 ```
+
 ## Install virtual environment wrapper (pip install)
 
 ```bash
@@ -114,6 +115,7 @@ create new environments through pip package manager
 cd $ENV_BASE_DIR
 virtualenv $ENVIRONMENT_NAME
 ```
+
 create new environments through conda package manager
 ```bash
 conda create --name $ENVIRONMENT_NAME python
@@ -123,27 +125,31 @@ conda create --name $ENVIRONMENT_NAME python
 
 ### Activate virtual environments 
 	
-	pip package manager start
-	```bash
-	source $ENVIRONMENT_NAME/bin/activate
-	```
-	pip package manager with wrapper start
-	```bash
-	workon $ENVIRONMENT_NAME
-	```
+pip package manager start
+	
+```bash
+source $ENVIRONMENT_NAME/bin/activate
+```
+	
+pip package manager with wrapper start
+	
+```bash
+workon $ENVIRONMENT_NAME
+```
 
-	conda package manager start
-	```bash
-	source activate $ENVIRONMENT_NAME
-	```
+conda package manager start
+	
+```bash
+source activate $ENVIRONMENT_NAME
+```
 
 ### Deactivate virtual environment
 
-	stop environments in any package manager
+stop environments in any package manager
 	
-	```bash
-	deactivate
-	```
+```bash
+deactivate
+```
 
 ## Indepedent Practice 
 
@@ -158,13 +164,15 @@ Virtual environments are also useful for keeping your environment consistent. Th
 
 
 It’s a good idea to “freeze” the current state of the environment packages. To do this, run
-```bash
-$ pip freeze > requirements.txt
+
+```
+pip freeze > requirements.txt
 ```
 
 Later it will be easier for a different developer (or you, if you need to re-create the environment) to install the same packages using the same versions:
-```bash
-$ pip install -r requirements.txt
+
+```
+pip install -r requirements.txt
 ```
 Good practice: upload requirements.txt to github project. However, exclude the virtual environment folder from source control by adding it to the ignore list.
 
