@@ -127,16 +127,19 @@ conda create --name $ENVIRONMENT_NAME python
 ### Activate virtual environments 
 	
 	pip package manager start
+	
 	```bash
 	source $ENVIRONMENT_NAME/bin/activate
 	```
 	
 	pip package manager with wrapper start
+	
 	```bash
 	workon $ENVIRONMENT_NAME
 	```
 
 	conda package manager start
+	
 	```bash
 	source activate $ENVIRONMENT_NAME
 	```
