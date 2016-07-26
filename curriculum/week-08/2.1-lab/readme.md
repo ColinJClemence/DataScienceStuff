@@ -39,18 +39,18 @@ The Bayesian approach also relaxes a few assumptions, we no longer have to assum
 
 You can remember what it means by just breaking the word down to it's component parts - homo : same, skedastic : variation, the later word can be thought of as being related to "skew" i.e. how much your line "skews" from the "true" trend-line.
 
-However, as previously stated, the Bayesian approach is fundamentally the "inverse" trick (i.e `f(X|$\theta$) to f($\theta$|X)`, and is primarily concerned with estimating parameters. In the case of Regressions, estimating` $\beta$'s` and estimating `$\sigma$'s` (and thus `$\sigma^2$'s`).
+However, as previously stated, the Bayesian approach is fundamentally the "inverse" trick (i.e ![](fx_theta.png) to ![](ftheta_x.png), and is primarily concerned with estimating parameters. In the case of Regressions, estimating ![](beta.png)'s and estimating ![](sigma.png)'s (and thus ![](sigma_squared.png)'s).
 
 Why does this matter? Bayesian regressions give you, the modeler/data scientist a lot more control over your model. You can specify priors for each of the parameters in your regression (the $\beta$'s), the error term, and even the constant (as well as the target). Therefore, it's worth to learn, and will give you more latitude to fit your model to the data you
 
-So we know that the joint of $\beta$ and $\sigma^2$ is proportional to the precision, defined as `$\frac{1}{\sigma^2}$`. Further, `$$p(\beta, \sigma^2|{y}) = p(\beta|{y}, \sigma^2)p(\sigma^2|{y})$$`
+So we know that the joint of ![](beta.png)'s and ![](sigma_squared.png)'s is proportional to the precision, defined as ![](inverse_sigma_sq.png). Further, ![](p_function.png)
 
 Of course, we have check that this is not a pathological probability (proper) blah blah, but this ins't a mathematics course, so we'll again be blissfully ignorant of these complexities!
 
 If we had a procedural step-wise perspective of the procedure, here's what it would be:
 
-1. Determine `$\beta$`, `$\sigma$` using posterior distributions
-2. Construct `$y_{i+1}, y_{i+2}, ... y_{i+n}$` from a distribution using the parameters from step 1
+1. Determine ![](beta.png), ![](sigma.png) using posterior distributions
+2. Construct ![](y_series.png) from a distribution using the parameters from step 1
 
 ## Exercise
 
