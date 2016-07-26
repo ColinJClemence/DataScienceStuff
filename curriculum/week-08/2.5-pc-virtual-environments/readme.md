@@ -1,12 +1,12 @@
 ---
-title: Virtual Environment
+title: Virtual Environments
 duration: "1:00"
 creator:
     name: Pauline Chow
     city: LA
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Virtual Environment
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Introduction to Virtual Environments
 Week 8 | Lesson 2.3
 
 ### LEARNING OBJECTIVES
