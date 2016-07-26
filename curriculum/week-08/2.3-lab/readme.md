@@ -43,7 +43,7 @@ Specifically:
 As stated, the type of “missingness” we are most concerned about is the last row, "Missing not at Random". And as good Statis... Data Scientists, we understand what "data generating process" really means: We can make an equation of sorts to "model" the “missingness” in our data set. If we can convincingly show that this model accounts for "most" (again we're not being stringent statisticians so that word will be left up to you to define for the moment) of the observable variation, we can be (relatively) well-at-ease that our "missingness" isn't functionally related to some features we don't have control/accounted/recorded in our data.
 
 Before we move forward, we have to define the *inclusion indicator*. We say **_I_** is an inclusion indicator if:
-![](inclusion.png)
+![](inclusion_small.png)
 
 Simple enough? Let's read on, and maybe we'll see how Bayesian analysis slips its slimy tenticles into seemingly simple things.
 
