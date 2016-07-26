@@ -47,13 +47,39 @@ Week 8 | Lesson 2.3
 # Introduction - What are Virtual Environments?
 
 <a name="why-venv"></a>
-# Why Virtual Environments?
+# Why Virtual Environments? Use Case
+
+A Virtual Environment is a tool to keep the dependencies required by different projects in separate places, by creating virtual Python environments for them. It solves the “Project X depends on version 1.x but, Project Y needs 4.x” dilemma, and keeps your global site-packages directory clean and manageable.
+
+For example, you can work on a project which requires Django 1.3 while also maintaining a project which requires Django 1.0.
+
+[Python Docs](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
 <a name="types-venv"></a>
 # How to Use Virtual Environments?
 
+## Package Managers
+virtual environment package for python is available through *pip* and *conda* package managers. [comparison between pip and conda virtualenv](http://conda.pydata.org/docs/_downloads/conda-pip-virtualenv-translator.html)
+
+```bash
+pip install virtualenv
+```
+```bash
+conda install virtualenv
+```
+## Create virtual environments
+
+```bash
+cd $ENV_BASE_DIR
+virtualenv $ENVIRONMENT_NAME
+```
+
+```bash
+conda create --name $ENVIRONMENT_NAME python
+```
+
 <a name="venv-wrappers"></a>
-# Quickly activate and deactive virtual environments
+# Activate and deactive virtual environments
 
 <a name="venv-save-load"></a>
 # Portable Virtual Environments
