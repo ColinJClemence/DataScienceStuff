@@ -34,10 +34,10 @@ Week 8 | Lesson 2.3
 |:-:|---|---|
 | 5 min | [Opening](#opening) | Opening |
 | 5 min | [Introduction](#intro-venv) | What are Virtual Environments?|
-| 10 min | [Why-venv](#why-venv) | Why virutal environments? |
-| 10 min | [types-venv](#types-venv) | How to Use Virtual Environments?|
-| 10 min | [venv-wrappers](#venv-wrappers) | Virtual Environments wrappers|
-| 15 min | [venv-save-load](#venv-save-load) | Portable Virtual Environments - Save and Load Configruations|
+| 10 min | [Guided Practice](#why-venv) | Why virutal environments? |
+| 10 min | [Demo](#types-venv) | How to Use Virtual Environments?|
+| 10 min | [Guided Practice](#venv-wrappers) | Virtual Environments wrappers|
+| 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configruations|
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
 <a name="opening"></a>
