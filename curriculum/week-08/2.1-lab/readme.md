@@ -41,7 +41,7 @@ You can remember what it means by just breaking the word down to it's component 
 
 However, as previously stated, the Bayesian approach is fundamentally the "inverse" trick (i.e ![](fx_theta.png) to ![](ftheta_x.png), and is primarily concerned with estimating parameters. In the case of Regressions, estimating ![](beta.png)'s and estimating ![](sigma.png)'s (and thus ![](sigma_squared.png)'s).
 
-Why does this matter? Bayesian regressions give you, the modeler/data scientist a lot more control over your model. You can specify priors for each of the parameters in your regression (the $\beta$'s), the error term, and even the constant (as well as the target). Therefore, it's worth to learn, and will give you more latitude to fit your model to the data you
+Why does this matter? Bayesian regressions give you, the modeler/data scientist a lot more control over your model. You can specify priors for each of the parameters in your regression (the ![](beta.png)'s), the error term, and even the constant (as well as the target). Therefore, it's worth to learn, and will give you more latitude to fit your model to the data you
 
 So we know that the joint of ![](beta.png)'s and ![](sigma_squared.png)'s is proportional to the precision, defined as ![](inverse_sigma_sq.png). Further, ![](p_function.png)
 
