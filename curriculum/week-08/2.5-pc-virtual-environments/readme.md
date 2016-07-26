@@ -94,10 +94,12 @@ install through pip package manager
 ```bash
 pip install virtualenv
 ```
+
 install through conda package manager
 ```bash
 conda install virtualenv
 ```
+
 ## Install virtual environment wrapper (pip install)
 
 ```bash
@@ -114,6 +116,7 @@ create new environments through pip package manager
 cd $ENV_BASE_DIR
 virtualenv $ENVIRONMENT_NAME
 ```
+
 create new environments through conda package manager
 ```bash
 conda create --name $ENVIRONMENT_NAME python
