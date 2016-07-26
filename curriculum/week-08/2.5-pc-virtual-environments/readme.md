@@ -81,7 +81,7 @@ versions of "site-packages"
 # Example of directory with virtual environment
 This is folder mapping is similar for python3 and python 2
 
-![](venv_folders.png)
+![](venv_folder.png)
 
 <a name="types-venv"></a>
 # How to Use Virtual Environments?
