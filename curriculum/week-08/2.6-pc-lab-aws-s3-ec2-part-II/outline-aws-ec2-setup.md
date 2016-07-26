@@ -12,7 +12,7 @@
 9. If necessary, install packages and services on EC2 instance
 
 ###EXISTING USER SETUP STEPS (not first time using AWS)
-**UBUNTU INSTANCES EXERCISE**
+####UBUNTU INSTANCES EXERCISE
 1. Log into Amazon Web Services with your username and password.
 2. Navigate to the AWS Console to choose "EC2". 
 3. Launch "EC2" Ubuntu Free Tier Instance with proper security group and ssh key. See [tutorial](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
