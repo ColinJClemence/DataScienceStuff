@@ -37,12 +37,9 @@ Review your previous lab with PyMC and read the docs on the various methods so y
 
 #### Starter code
 
-Please utilize the starter code found in the directory to start the students on today's activities
-[starter code](./code/starter-code/)
+Please use the [starter code found here](./code/w8-2.4-starter.ipynb)
 
-#### Deliverable
-
-Submit a notebook with the code written to complete the exercises
+> [Solutions](./code/w8-2.4-solutions.ipynb)
 
 ### Additional Resources
 
