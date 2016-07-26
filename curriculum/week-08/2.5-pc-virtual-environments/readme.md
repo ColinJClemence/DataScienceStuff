@@ -151,6 +151,18 @@ stop environments in any package manager
 deactivate
 ```
 
+### Remove virtual environment
+remove conda virtual environment
+
+```bash
+conda-env remove -n $ENVIRONMENT_NAME
+```
+or, in some versions of anaconda
+
+```bash
+conda remove --all -n $ENVIRONMENT_NAME
+```
+
 ## Indepedent Practice 
 
 Compare the outputs of `which python` before and after your virtual environment is activated
