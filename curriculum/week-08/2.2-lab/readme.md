@@ -17,9 +17,11 @@ As you recall, for linear regressions, we estimate parameters by deploying some 
 
 You'll recall that we have to deploy the apparatus of the MLE to do parameter estimation for the right-hand side of the equation. Recall that MLE seek to find the maximum probability given the data at hand.
 
-MLE's require a few ingredients: one is a well defined likelihood function. Given the fact that we are dealing with binary targets, we can easily model these using Bernoulli scheme:  ![](bernoulli_small.png)
+MLE's require a few ingredients: one is a well defined likelihood function. Given the fact that we are dealing with binary targets, we can easily model these using Bernoulli scheme:  
+![](bernoulli_small.png)
 
-Recall also that we seek to maximize the following: ![](maximize_small.png), yet because off the annoying property of computing the derviatives numerically, it's best to trasform this with the logarithm, which makes this into computing a derivative of a product chain to computing a derivative of a sum: ![](sum_deriv_small.png)
+Recall also that we seek to maximize the following: 
+![](maximize_small.png), yet because off the annoying property of computing the derviatives numerically, it's best to trasform this with the logarithm, which makes this into computing a derivative of a product chain to computing a derivative of a sum: ![](sum_deriv_small.png)
 
 A much "cleaner" functional form with respect to computing a derivative. From here, the problem is transferred to solving a constraint optimization problem. Rarely will you have to do this by hand, and we did some simple finger exercises previously for you to get the feel of it, but in general, the software will handle these in the background for you.
 
