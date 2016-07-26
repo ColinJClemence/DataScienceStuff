@@ -36,7 +36,7 @@ Week 8 | Lesson 2.3
 | 5 min | [Introduction](#intro-venv) | What are Virtual Environments?|
 | 10 min | [Guided Practice](#why-venv) | Why virutal environments? |
 | 10 min | [Demo](#types-venv) | How to Use Virtual Environments?|
-| 10 min | [Guided Practice](#venv-wrappers) | Virtual Environments wrappers|
+| 10 min | [Guided Practice](#venv-wrappers) | Virtual Environments wrappers |
 | 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configruations|
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
@@ -59,27 +59,39 @@ For example, you can work on a project which requires Django 1.3 while also main
 # How to Use Virtual Environments?
 
 ## Package Managers
+
 virtual environment package for python is available through *pip* and *conda* package managers. [comparison between pip and conda virtualenv](http://conda.pydata.org/docs/_downloads/conda-pip-virtualenv-translator.html)
 
+install through pip package manager
 ```bash
 pip install virtualenv
 ```
+install through conda package manager
 ```bash
 conda install virtualenv
 ```
 ## Create virtual environments
 
+create new environments through pip package manager
 ```bash
 cd $ENV_BASE_DIR
 virtualenv $ENVIRONMENT_NAME
 ```
-
+create new environments through conda package manager
 ```bash
 conda create --name $ENVIRONMENT_NAME python
 ```
 
-<a name="venv-wrappers"></a>
-# Activate and deactive virtual environments
+## Activate and deactive virtual environments
+
+start environments through pip package manager
+```bash
+source $ENVIRONMENT_NAME/bin/activate
+```
+start environments through conda package manager
+```bash
+source activate $ENVIRONMENT_NAME
+```
 
 <a name="venv-save-load"></a>
 # Portable Virtual Environments
