@@ -26,7 +26,7 @@ Let's begin!
 
 We'll be working with our second UCI Machine Learning Repository data set.
 
-The description of the data is as follows from the website (https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#):
+The description of the data is as follows from the [website](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients#):
 
     This research aimed at the case of customersâ€™ default payments in Taiwan and compares the predictive accuracy of probability of default among six data mining methods. From the perspective of risk management, the result of predictive accuracy of the estimated probability of default will be more valuable than the binary result of classification - credible or not credible clients. Because the real probability of default is unknown, this study presented the novel â€œSorting Smoothing Methodâ€ to estimate the real probability of default. With the real probability of default as the response variable (Y), and the predictive probability of default as the independent variable (X), the simple linear regression result (Y = A + BX) shows that the forecasting model produced by artificial neural network has the highest coefficient of determination; its regression intercept (A) is close to zero, and regression coefficient (B) to one. Therefore, among the six data mining techniques, artificial neural network is the only one that can accurately estimate the real probability of default.
 
@@ -48,6 +48,6 @@ Submit a notebook with the code written to complete the exercises
 
 For those of you who want to read further:
 
-- Model fitting doc in PyMC (https://pymc-devs.github.io/pymc/modelfitting.html)
-- MCMC model fitting https://pymc-devs.github.io/pymc/modelfitting.html#markov-chain-monte-carlo-the-mcmc-class
-- PyMC class types: https://pymc-devs.github.io/pymc/modelbuilding.html
+- [Model fitting doc in PyMC](https://pymc-devs.github.io/pymc/modelfitting.html)
+- [MCMC model fitting](https://pymc-devs.github.io/pymc/modelfitting.html#markov-chain-monte-carlo-the-mcmc-class)
+- [PyMC class types](https://pymc-devs.github.io/pymc/modelbuilding.html)
