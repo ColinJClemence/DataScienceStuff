@@ -37,8 +37,7 @@ Week 8 | Lesson 2.3
 | 10 min | [Guided Practice](#why-venv) | Why virtual environments? |
 | 5 min | [Demo](#details-venv) | Details of Virtual Environments |
 | 10 min | [Demo](#types-venv) | How to Use Virtual Environments?|
-| 10 min | [Guided Practice](#venv-wrappers) | Virtual Environment wrappers |
-| 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configurations|
+| 15 min | [Independent Practice](#venv-save-load) | Portable Virtual Environments - Save and Load Configurations |
 | 5 min | [Conclusion](#conclusion) | Conclusion |
 
 <a name="opening"></a>
