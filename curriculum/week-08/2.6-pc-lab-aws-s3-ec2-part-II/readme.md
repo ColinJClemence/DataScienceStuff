@@ -249,8 +249,7 @@ Wow, great! We have learned to request and access computing power and storage as
 <a name="ind-practice"></a>
 ## AWS Command Line [AWSCLI] (15 min)
 
-Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
-
+***Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
 
 ### Steps to complete
 
@@ -270,10 +269,17 @@ In order to use the command line we will have to configure a set of access crede
 
 #### Step 2: Install and Configure the AWS CLI
 
+A. Install AWS: 
+Note that one of the method is to use `pip` to install the AWSCLI.
 
-http://docs.aws.amazon.com/cli/latest/userguide/installing.html
-
-Note that one of the method is to simply use `pip` to install the AWSCLI.
+- AWS CLI tools come preinstalled in Amazon Linux instances
+- Install AWS CLI tools on Ubuntu instances: 
+    - http://docs.aws.amazon.com/cli/latest/userguide/installing.html
+    ```bash
+    $ curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+    $ unzip awscli-bundle.zip
+    $ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+    ```
 
 **Note:** If you already have AWSCLI configured and you would like to have multiple roles, you can do that as explained [here](http://docs.aws.amazon.com/cli/latest/userguide/cli-roles.html).
 
@@ -281,8 +287,15 @@ Note that one of the method is to simply use `pip` to install the AWSCLI.
 
 Now you can go ahead and copy files back and forth from your command line, without ever having to click on the web interface. How cool is that?
 
-
-Here's a [Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
+***Let's go ahead and follow the [tutorial for AWSCLI](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+> STEP 2: Install and Configure the AWS CLI
+> IAM credentials must be available
+> ssh into ec2 instance
+> "aws configure" in the instance and be prompted to enter:
+    AWS Access ID: 
+    AWS Secret Key: 
+    Default Region Name: (press enter)
+    Default output format: json
 
 <a name="guided_practice"></a>
 ## EC2 from the command line (15 min)
@@ -353,7 +366,6 @@ You can check it by typing:
 ```bash
 aws ec2 describe-images --image-ids ami-9abea4fb --region us-west-2
 ```
-
 
 #### 4. Launch spot instance
 
@@ -430,4 +442,6 @@ We have learned how to use them both from the web interface and from the command
 - [S3](https://aws.amazon.com/s3/?nc2=h_m1)
 - [Tutorials](https://aws.amazon.com/getting-started/tutorials/)
 - [AWS CLI Tutorial](http://www.joyofdata.de/blog/guide-to-aws-ec2-on-cli/)
+- [AWSCLI Cheat Sheet](https://github.com/toddm92/aws/wiki/AWS-CLI-Cheat-Sheet) for the AWSCLI.
+
 
