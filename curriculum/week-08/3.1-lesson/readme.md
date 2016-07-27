@@ -76,9 +76,9 @@ Because our pages will be fully or partially rendered on the client side after w
 
 ---
 
-As many of you probably know, Foursquare is a quasi-Geo-spatial social network, geared towards surfacing recommendations, location, and coordinated meetups. The end-user accomplishes this through a combination of texting, geo-tagging, and light content creation in the form of recommendations/reviews/etc. Often times the service is accessed via a mobile device, although one can engage in Foursquare activity through a desktop/laptop as well.
+As many of you probably know, Foursquare is a quasi-Geo-spatial social network, geared towards surfacing recommendations, location, and coordinated meetups. The end-user accomplishes this through a combination of texting, geo-tagging, and light content creation in the form of recommendations/reviews/etc. Oftentimes the service is accessed via a mobile device, although one can engage in Foursquare activity through a desktop/laptop as well.
 
-The end user activity is incentivized/rewarded through accumulation of badges, titles (A sort of Gamification), and through getting (what's hoped) activity appropriate/contextualized coupons/discounts/sometimes free goods that are machine determined (i.e. some matching procedure/algorithm produced). Also, there is an intrinsic element to the incentive, like Facebook, many foursquare power-users end up using the service because their immediate friends/social network also utilize the service (the so-called "Network effect").
+The end user activity is incentivized/rewarded through accumulation of badges, titles (a sort of Gamification), and through getting (what's hoped) activity appropriate/contextualized coupons/discounts/sometimes free goods that are machine determined (i.e. some matching procedure/algorithm produced). Also, there is an intrinsic element to the incentive; like Facebook, many foursquare power-users end up using the service because their immediate friends/social network also utilize the service (the so-called "Network effect").
 
 
 ---
@@ -92,7 +92,7 @@ We will use 'foursquare' in Python, which can be loaded up in your system via ea
 
 #### Foursquare API OAuth process  
 
-**Brief Review:** "OAuth" is a web protocol for authentication with a third-party service, like when you try to sign up for a website and get directed to sign in with Google. Essentially, the website is using Google to prove who you are
+**Brief Review:** "OAuth" is a web protocol for authentication with a third-party service, like when you try to sign up for a website and get directed to sign in with Google. Essentially, the website is using Google to prove who you are.
 
 To access the Foursquare API you must first register an App using the [foursquare App registration service](https://foursquare.com/developers/apps)
 
@@ -110,7 +110,7 @@ CLIENT_SECRET = ''
 client = foursquare.Foursquare(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 ```
 
-We're going to do a fun exercise that looks at our local venues and do simple counts. The first thing we need to do is construct a bounding box around our geo-area. A simple tool for this is here: http://boundingbox.klokantech.com/. Select your home location, and create a bounding box around it. Make sure your output coordinates is set to "raw CSV". Get that data and input it into a python list
+We're going to do a fun exercise that looks at our local venues and do simple counts. The first thing we need to do is construct a bounding box around our geo-area. A simple tool for this is here: http://boundingbox.klokantech.com/. Select your home location, and create a bounding box around it. Make sure your output coordinates is set to "raw CSV". Get that data and input it into a python list!
 
 ```python
 # Example
