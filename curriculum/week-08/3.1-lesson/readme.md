@@ -178,7 +178,7 @@ This method will form the kernel of a depth-first search procedure you will comp
 
 ## Foursquare Independent Practice (10 min)
 
-To get more facility with Foursquare JSON structures, let's do a little practice. Select any resteraunt venue in your list of venues:
+To get more facility with Foursquare JSON structures, let's do a little practice. Select any restaurant venue in your list of venues:
 
 ```python
 client.venues('venue number here')
