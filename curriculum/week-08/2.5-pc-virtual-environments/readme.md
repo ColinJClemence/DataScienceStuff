@@ -151,6 +151,18 @@ stop environments in any package manager
 deactivate
 ```
 
+### Remove virtual environment
+remove conda virtual environment
+
+```bash
+conda-env remove -n $ENVIRONMENT_NAME
+```
+or, in some versions of anaconda
+
+```bash
+conda remove --all -n $ENVIRONMENT_NAME
+```
+
 ## Indepedent Practice 
 
 Compare the outputs of `which python` before and after your virtual environment is activated
@@ -174,6 +186,13 @@ Later it will be easier for a different developer (or you, if you need to re-cre
 ```
 pip install -r requirements.txt
 ```
+
+Conda package manager 
+
+```
+conda list -e > req.txt
+```
+
 Good practice: upload requirements.txt to github project. However, exclude the virtual environment folder from source control by adding it to the ignore list.
 
 <a name="conclusions"></a>

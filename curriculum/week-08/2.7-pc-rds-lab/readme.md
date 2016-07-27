@@ -93,20 +93,23 @@ Through the tutorial we will be:
 
 Let's follow the tutorial by Amazon Part II: [Connecting to a PostgreSQL DB Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_GettingStarted.CreatingConnecting.PostgreSQL.html)
 
-There are two ways to connect to the database created in RDS:
-	1. pgAdmin (see image below for configuration examples)
-	![](./assets/images/rds_pgadmin.png)
+There are threes ways we focused on to connect to the database created in RDS:
+1. pgAdmin (see image below for configuration examples)
+![](./assets/images/rds_pgadmin.png)
 
-	2. psql 
+2. psql 
 	
-	- psql paramters for connections
-		```bash
-		psql --host=<DB instance endpoint> --port=<port> --username=<master user name> --password --dbname=<database name> 
-		```
-	- psql example 
-		```bash
-		psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 --username=awsuser --password --dbname=mypgdb 
-		```
+in the command line, psql paramters for connections
+
+```bash
+$ psql --host=<DB instance endpoint> --port=<port> --username=<master user name> --password --dbname=<database name> 
+```
+	
+psql example 
+
+```bash
+$ psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 --username=awsuser --password --dbname=mypgdb 
+```
 
 <a name="ind-practice"></a>
 ## Connecting between sources through the command line (20 min)

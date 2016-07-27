@@ -18,6 +18,7 @@
 3. Launch "EC2" Ubuntu Free Tier Instance with proper security group and ssh key. See [tutorial](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 7. Open terminal or bash shell
 8. Type the command: 'ssh -i [location of ssh key] Ubuntu@[dns instance]
-9. Set up your environment, i.e. pip install -r requirements.txt 
-10. Set up new git repo on instance: https://github.com/PowChow/knn_athletes
+9. Copy and paste first_install_ubuntu.sh into "nano $filename.sh" OR pipe the file into your ec2
+- find github repo and install script: https://github.com/PowChow/knn_athletes 
+- run the install script: "bash first_install_ubuntu.sh"
 11. Run "python ~/knn_athletes/Exercise_KNN_Classifier_Solution.py" (Note: Use absolute or relative path)
