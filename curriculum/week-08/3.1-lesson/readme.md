@@ -86,7 +86,7 @@ The end user activity is incentivized/rewarded through accumulation of badges, t
 <a name = "demo"></a>
 ## Demo: Accessing the Foursquare API (15 mins)
 
-Accessing the Foursquare API has become much simpler in recent years through the construction of 3rd party Python libraries that make the Oauth an data pull process much simpler, and wraps the data/meta-data in appropriate Python data-types.
+Accessing the Foursquare API has become much simpler in recent years through the construction of 3rd party Python libraries that make the Oauth and data pull process much simpler, and wraps the data/meta-data in appropriate Python data-types.
 
 We will use 'foursquare' in Python, which can be loaded up in your system via easy_install or pip in the usual way (i.e. `pip install foursquare`).
 
@@ -162,7 +162,7 @@ Suppose we wanted to generate a list of venues for a given geographical boundary
 We could use a search procedure to go through the data bounded by a lat/long. First, we have to identify which columns we would like to include in our data frame.
 
 ```python
-# We should include the lat, lon, name of the venue, and all of the data housed in hte "stats" heading in the JSON example.
+# We should include the lat, lon, name of the venue, and all of the data housed in the "stats" heading in the JSON example.
 
 venues = venues.append(pd.DataFrame({"name":res["venue"]["name"],"users":res["venue"]["stats"]["usersCount"],
 "checkins":res["venue"]["stats"]["checkinsCount"], "tips":nv["stats"]["tipCount"], "lat":res["venue"]["location"]["lat"],
