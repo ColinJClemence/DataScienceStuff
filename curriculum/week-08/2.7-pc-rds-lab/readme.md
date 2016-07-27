@@ -112,6 +112,7 @@ $ psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 
 ```
 
 <a name="ind-practice"></a>
+# Independent Practice
 ## Connecting between sources through the command line (20 min)
 
 [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html)
@@ -119,11 +120,27 @@ $ psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 
 If you have data in a PostgreSQL server on an Amazon EC2 instance and want to move it to a PostgreSQL DB instance, you can use the following process. The following list shows the steps to take. Each step is discussed in more detail in the following sections.
 
 1. Create a file using pg_dump that contains the data to be loaded
-2. Create the target DB instance
-3. Use psql to create the database on the DB instance and load the data
-4. Create a DB snapshot of the DB instance
+2. Create the target DB instance in AWS
+3. load the pg_dump output into AWS RDS endpoint. see the code below and in the tutorial.
 
-**Think Pair and Share:** What is the difference between pg_dump and pg_restore. Find the answer in the linked tututorial: [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) 
+```
+psql \
+   -f mydb2dump.sql \
+   --host mypginstance.c6c8mntzhgv0.us-west-2.rds.amazonaws.com \
+   --port 8199 \
+   --username myawsuser \
+   --password password \
+   --dbname mydb2 
+```
+
+
+**Documentation Check:** What is the difference between pg_dump and pg_restore. Find the answer in the linked tututorial: [Importing a PostgreSQL Database from an Amazon EC2 Instance](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/PostgreSQL.Procedural.Importing.html) 
+
+Here is another way to copy localhost db to ec2. This will direct the .sql file to your ec2 instance not to rds
+
+```bash
+pg_dump -C -h localhost -U [localuser] -p [port] [database] | ssh -i ~/.ssh/[key].pem [user]@ec2-xx-xxx-xxx.compute-1.amazonaws.com -p9222 "cat > [location].sql"
+```
 
 <a name="independent-practice"></a>
 ## Exercise: Copy local database to the cloud  (20 min)
