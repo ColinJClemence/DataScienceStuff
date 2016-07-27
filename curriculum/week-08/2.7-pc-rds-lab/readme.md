@@ -100,11 +100,14 @@ There are two ways to connect to the database created in RDS:
 	2. psql 
 	
 	- psql paramters for connections
-		```bash
+
+		```
 		psql --host=<DB instance endpoint> --port=<port> --username=<master user name> --password --dbname=<database name> 
 		```
+	
 	- psql example 
-		```bash
+	
+		```
 		psql --host=mypostgresql.c6c8mwvfdgv0.us-west-2.rds.amazonaws.com --port=5432 --username=awsuser --password --dbname=mypgdb 
 		```
 
