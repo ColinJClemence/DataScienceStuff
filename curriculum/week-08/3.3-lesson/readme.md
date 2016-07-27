@@ -104,7 +104,7 @@ Recall that we are interested in understanding the properties of the multi-class
 
 Now LDA is concerned about the quotient between class 1 and class 2.
 
-![](lda_quotient.png)
+![](lda_quot.png)
 
 which is just:
 
