@@ -69,13 +69,13 @@ Since our data is multi-variate normal, we can do ourselves a big favor by norma
 
 The within-scatter matrix is as follows:
 
-``$$\sum_{j=1}^{|c|}\sum_{i=1}^n (x-\mu)(x-\mu)^T$$``, which is a sum of 'outer-products' in fancy linear algebra jargon.
+``$$\sum_{j=1}^{|c|}\sum_{i=1}^n (x-\mu)(x-\mu)^T$$``![](within_scatter.png), which is a sum of 'outer-products' in fancy linear algebra jargon.
 
 The without-scatter matrix is as follows:
 
-``$$\sum_{i=1}^{{c|} n(\mu_{i}-mu)(\mu_{i})^T $$``
+![](within_scatter.png)``$$\sum_{i=1}^{{c|} n(\mu_{i}-mu)(\mu_{i})^T $$``
 
-such that $\mu$ is just the mean of the data, |c| is just the number of class-labels
+such that ![](mu.png) $\mu$ is just the mean of the data, |c| is just the number of class-labels
 
 **Note**: Sometimes in math jargon "the number of something" or "the size of the set" or "how many elements there are in a sample" are denoted with the | x | where x is whatever variable. This symbol is called *modulus*.
 
@@ -90,7 +90,7 @@ Thankfully, that all will be done by the computer! So we will ignore most of it 
 
 Recall that we have two optimizations working at once here, we wish to not only minimize the within-class matrix distance, but also maximize the without distance. The scatter-matrix values takes a familiar functional form:
 
-`$$S_i = \sum_x = i ^{n} (x-\mu_{i})(x-\mu_{i})' $$`
+`$$S_i = \sum_x = i ^{n} (x-\mu_{i})(x-\mu_{i})' $$`  ![](scatter_function.png)
 
 
 <a name = "demo"></a>
@@ -100,15 +100,15 @@ Recall that we have two optimizations working at once here, we wish to not only 
 
 Recall that we are interested in understanding the properties of the multi-class target. For simplicity, let's assume we just have a 2-class model. Given our study of Bayesian Analysis, we could contextualize our problem by using the posterior probability:
 
-`$$ P(C_{1} | X = x) = \frac{f_{1} * \pi_{1}}{\sum_{i=1}^N f_{2}(x)\pi_{2}} $$`
+`$$ P(C_{1} | X = x) = \frac{f_{1} * \pi_{1}}{\sum_{i=1}^N f_{2}(x)\pi_{2}} $$` ![](posterior.png)
 
 Now LDA is concerned about the quotient between class 1 and class 2.
 
-`$$log(\frac{P(C_{1}|X = x)}{P(C_{2}|X = x)} = log(\frac{f_{1}(x)}{f_{2}(x)} + log(\frac{\pi_{1}}{\pi_{2}} $$`
+`$$log(\frac{P(C_{1}|X = x)}{P(C_{2}|X = x)} = log(\frac{f_{1}(x)}{f_{2}(x)} + log(\frac{\pi_{1}}{\pi_{2}} $$` ![](lda_quotient.png)
 
 which is just:
 
-`$$ log(\frac{\pi_1}{\pi_2} - \frac{1}{2}(\mu_{1}+\mu_{2})^T(\sum^-1(\mu_{1}-\mu_{2}))$$`
+`$$ log(\frac{\pi_1}{\pi_2} - \frac{1}{2}(\mu_{1}+\mu_{2})^T(\sum^-1(\mu_{1}-\mu_{2}))$$` ![](lda_log_form.png)
 
 
 
