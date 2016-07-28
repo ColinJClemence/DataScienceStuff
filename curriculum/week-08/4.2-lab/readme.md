@@ -34,8 +34,7 @@ Exercises include going through basic hypothesis tests, implementing several sta
 
 #### Starter code
 
-Please utilize the starter code found in the directory to start the students on today's activities
-[starter code](./code/w8-4.2-starter.ipynb)
+Please use the [starter code found here](./code/w8-4.2-starter.ipynb)
 
 > [Solution Code](./code/w8-4.2-solutions.ipynb)
 
