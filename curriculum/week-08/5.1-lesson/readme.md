@@ -82,11 +82,11 @@ Chi Square Distribution:
 
 Uniform Distribution:
 
-![](/assets/images/Uniform_distribution_PDF.png)
+![](./assets/images/Uniform_distribution_PDF.png)
 
 Poisson Distribution:
 
-![](/assets/images/poisson_family.gif)
+![](./assets/images/poisson_family.gif)
 
 There are of course, more, let's move forward into some coding to see how we can actually produce some interesting plots to communicate Bayesian results.
 

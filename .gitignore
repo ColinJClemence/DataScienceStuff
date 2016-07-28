@@ -19,6 +19,8 @@ Thumbs.db
 #secret files 
 secretokenfile.py
 user_keys.py
+*_user_keys.py
+twitter_user_keys.py
 config_secret.json
 random_file.json
 
