@@ -56,7 +56,7 @@ We'll go over these, as well as some good rules-of-thumb with respect to explain
 
 These are probably good principles to have both within and outside the Bayesian framework. However, before any visualizations are introduced, you should be able to explain clearly and accurately, what your analysis is arriving at. Here are a couple of rules of thumbs:
 
-- Do not confuse statistical significance with practical significance. This is the one that get's a lot of frosh data scientist. Just because something is statistically significant, DOES NOT MEAN the practical effects you are detecting are large.
+- Do not confuse statistical significance with practical significance. This is the one that gets a lot of frosh data scientists. Just because something is statistically significant, DOES NOT MEAN the practical effects you are detecting are large.
 - Following from the above, never EVER use the word "significant" in isolation. Normal people will just assume significant means observable effect size. This is dangerous, and many-an analyst have fallen for this trap only to find their executive moving forward with a move, they really shouldn't be... and I'll tell you that the negative practical effect size that occurs to that analyst a few weeks/months down the line isn't pretty...
 - Always start your analysis by describing your data, in fact don't just talk about your data, discuss at length how the data was collected, provide ANY factors that may mitigate the data's veracity, and assume all/any aggregation/summarization/transformations you may have imposed on the raw data
 - Confidence Intervals > P-Values (almost always)
