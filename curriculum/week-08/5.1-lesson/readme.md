@@ -74,7 +74,7 @@ A good deal of Bayesian statistics has to do with specifying prior distributions
 
 ![](./assets/images/mnormality.gif)
 
-However, it's not very common when presenting to clients or doing ad-hoc analysis. You should develop good facility with the shape of distributions and how to intuit what your distribution your particular data set may be drawn from. As an example, here are the most popular:
+However, it's not very common when presenting to clients or doing ad-hoc analysis. You should develop good facility with the shape of distributions and how to intuit what distribution your particular data set may be drawn from. As an example, here are the most popular:
 
 Chi Square Distribution:
 
