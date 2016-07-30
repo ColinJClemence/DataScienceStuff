@@ -14,7 +14,10 @@ creator:
 
 _Back at the CDC..._
 
-By now, I expect that you've become familiar with the data describing the West Nile Virus situation in Chicago. We would like for you to bring your new teammates up to speed by preparing a brief info-session.
+Become familiar with the data describing the West Nile Virus situation in Chicago. We would like for you to bring your new teammates up to speed by preparing a brief info-session.
+
+- [CDC Statistics & Maps | West Nile Virus](http://www.cdc.gov/westnile/statsmaps/)
+- Get the data from [West Nile Virus Prediction Kaggle Contest](https://www.kaggle.com/c/predict-west-nile-virus/)
 
 The main goal here is to describe, in detail, what is shown in the data. We expect you to do this by creating a presentation of visualizations of the available data. Using Tableau, create images that will tell the story of the spread of the disease and the learnings we've gained from our testing and spraying data. 
 
@@ -25,6 +28,7 @@ Using Tableau's various different graphing utilities, prepare visual data insigh
 This exercise is an extension of the EDA process. When deciding methodologies for data cleaning and organization, it is best to make those decisions using visual representations of the data for reference. 
 
 Here are some tips to get you started:
+
 1. For location based data, Heatmaps are the standard. How can we use Heatmaps to tell a story that changes over time? **BONUS:** Overlay the Heatmap over a map of the area.
 1. To track differences over time, try putting your data into a Frequency Chart.
 1. Overlaying different cuts of data can help show the repeatability or difference in trends.
