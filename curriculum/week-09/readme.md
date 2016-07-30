@@ -2,7 +2,7 @@
 
 This is a summary of the materials provided for Week 9 of the Data Science Immersive.
 
-## Week 9: Time Series Data
+## Week 9: Time Series Data & Big Data with Hadoop
 
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
