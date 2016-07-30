@@ -1,7 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) VM Installation Instructions & Troubleshooting Tips
 
-Instructors: This week requires additional preparation. In order to complete the lessons and labs provided, students will need to install a custom virtual machine that allows them to spin up local versions of these tools. Instructions are as follows:
-
+All: Big data requires additional preparation. In order to complete the lessons and labs provided, students will need to install a custom virtual machine that allows them to spin up local versions of tools for the next 2 weeks. Instructions are as follows:
 
 ## Installation
 1. Ensure that students have a [personal Dropbox account](https://www.dropbox.com/). If they don't, ask them to sign up for a free version. Due to the large size, they will need an account to download the VM files.
