@@ -6,7 +6,7 @@ This is a summary of the materials provided for Week 9 of the Data Science Immer
 
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
-9-10 | [Morning Exercise][9-1A]                | [Morning Exercise][9-2A]                   | [Morning Exercise][9-2A]                | [Morning Exercise][9-4A]      | [(Reflection)][9-5A]
+9-10 | [Morning Exercise][9-1A]                | [Morning Exercise][9-2A]                   | [Morning Exercise][9-3A]                | [Morning Exercise][9-4A]      | [Morning Exercise][9-5A]
 10-11:30 | [Github for Teams][9-1B]            | [Virtual Machine Installations for Hadoop][9-2B] & [Autocorrelation & Time Series Data][9-2C]       | [Intro to ARIMA Model][9-3B]      | [Tuning ARIMA Models][9-4B]   | [Time Series Recap][9-5B]
 11:30-1 | [Github for Teams Lab][9-1C]         | [Autocorrelation & Time Series Data][9-2C] | [ARIMA Predictions Lab][9-3C]     | [ARIMA Tuning Lab][9-4C]      | [Visualizing Time Series Group Lab][9-5C]
 2-3:30 | [Intro to Time Series Data][9-1D]     | [Autocorrelation & Time Series Data (Finance Lab)][9-2D] | [Capstone Pt 3: Workshop][9-3D]   | [Kaggle: Workshop][9-4D]      | [Kaggle: Workshop][9-5D]
