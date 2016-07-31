@@ -30,10 +30,11 @@ This exercise is an extension of the EDA process. When deciding methodologies fo
 Guide Pratice in Tableau:
 
 1. Adding background map images from openstreets maps, [tutorial link](http://kb.tableau.com/articles/knowledgebase/mapping-datapoints-google-maps)
-- set "geographic role" by right clicking data that is not automatically identified
+- set "geographic role" by right clicking data that is not automatically identified & setting as "dimension"
 - Tableau uses the same projection as Google Maps
 - background maps can be any other image, i.e. dental charts
-2. Latitude (up and down from the equator); Longitude (distance east or west from prime meridian)
+- Latitude (up and down from the equator); Longitude (distance east or west from prime meridian)
+2. Map Layers - turn on borders and details
 3. 
 
 Questions to get started:
