@@ -35,7 +35,11 @@ Guide Pratice in Tableau:
 - background maps can be any other image, i.e. dental charts
 - Latitude (up and down from the equator); Longitude (distance east or west from prime meridian)
 2. Map Layers - turn on borders and details
-3. 
+3. Time & Data 
+- Implicit understanding of date hierachy 
+- Compare cycle plots, by years, and by months
+- Bar Char expansion and comparison
+- Table calculations: percent differences, moving averages, and running totals
 
 Questions to get started:
 
