@@ -1,12 +1,12 @@
 ---
-title: Visualizing Time Series Data
+title: Visualizing Time Series 
 type: lab
 duration: "1:25"
 creator:
-    name: Robby Grodin
+    name: Robby Grodin (PC Edits)
     city: BOS
 ---
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Visualizing Time Series Data
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Visualizing Time Series & Geographic Data
 
 ## Introduction
 
@@ -27,7 +27,15 @@ Using Tableau's various different graphing utilities, prepare visual data insigh
 
 This exercise is an extension of the EDA process. When deciding methodologies for data cleaning and organization, it is best to make those decisions using visual representations of the data for reference. 
 
-Here are some tips to get you started:
+Guide Pratice in Tableau:
+
+1. Adding background map images from openstreets maps, [tutorial link](http://kb.tableau.com/articles/knowledgebase/mapping-datapoints-google-maps)
+- Tableau uses the same projection as Google Maps
+- background maps can be any other image, i.e. dental charts
+2. Latitude (up and down from the equator); Longitude (distance east or west from prime meridian)
+3. 
+
+Questions to get started:
 
 1. For location based data, Heatmaps are the standard. How can we use Heatmaps to tell a story that changes over time? **BONUS:** Overlay the Heatmap over a map of the area.
 1. To track differences over time, try putting your data into a Frequency Chart.
