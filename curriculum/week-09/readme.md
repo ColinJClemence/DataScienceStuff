@@ -22,7 +22,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [9-1F]: ./instructor-contributions/
 
 [9-2A]: ../instructor-contributions/
-[9-2B]: 2.1-lab
+[9-2B]: 2.1-lab-visualize-westnile
 [9-2C]: 2.2-lesson
 [9-2D]: 2.3-lab
 [9-2E]: #
