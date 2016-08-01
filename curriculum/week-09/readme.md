@@ -30,7 +30,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 
 [9-3A]: #
 [9-3B]: 3.1-lesson
-[9-3C]: 3.2-lab
+[9-3C]: 3.2-lab-ARIMA-predictions-lab
 [9-3D]: #
 [9-3E]: #
 [9-3F]: ./instructor-contributions/
