@@ -21,6 +21,10 @@ Become familiar with the data describing the West Nile Virus situation in Chicag
 
 The main goal here is to describe, in detail, what is shown in the data. We expect you to do this by creating a presentation of visualizations of the available data. Using Tableau, create images that will tell the story of the spread of the disease and the learnings we've gained from our testing and spraying data. 
 
+## Check Knowledge: 
+
+Question: How does this differ from time series data visualization and analysis in pandas?
+
 ## Exercise
 
 Using Tableau's various different graphing utilities, prepare visual data insights to describe your findings in the data. This exercise should also uncover more details that mutating the data in Pandas does not.
