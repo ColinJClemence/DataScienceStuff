@@ -1,6 +1,0 @@
-#vim ~/.aws/config
-[default]
-region = Tokyo
-aws_access_key_id = 'AKIAJFZ6YAOOKVA7NAEA'
-aws_secret_access_key = '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'
-
