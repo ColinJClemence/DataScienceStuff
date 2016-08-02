@@ -357,10 +357,20 @@ cat <input-file> | python mapper.py | sort -k1,1 | python reducer.py
 ![map reduce word count](./assets/images/word_count_dataflow.jpg)
 
 <a name="ind-practice"></a>
-## Independent practice (15 min)
+## Independent practice (20 min)
 
-Now that you have a basic word count set up in python, try doing some of the following:
+Now that you have a basic word count set up in python, try making the following tweeks to the map reduce code: 
+*We'll take 5 minutes per exercise the convene and discuss the solution*
 
+Where do you make the requested changes below (i.e. mapper, reducer, terminal code)? What happens to the output after each line of code is added?
+
+1. Lower the words in the file. 
+2. Remove punctuation in the file. 
+3. Remove numbers in the file. 
+4. Sort output by name key in reverse order. 
+5. Retreive the top 15 most frequent words in this file. 
+
+BONUS:
 - process a much larger text file (you can download it from internet)
 > for example a page from wikipedia or a blog article. If you're really ambitious you can take books from project gutemberg.
 - try to see how the execution time scales with file size
@@ -380,6 +390,8 @@ In this class we have learned about Big Data and map-reduce. This is an algorith
 ### Prep for next class:
 In preparation for the next class students shoud [Download and install Virtual Machine](../VM-installation.md).
     - Note: This is a big file. Please reserve time to download and troubleshoot installation.
+
+**Review commands in terminal / linux: [CLI Learn Code the Hardway](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)**
 
 ### ADDITIONAL RESOURCES
 
