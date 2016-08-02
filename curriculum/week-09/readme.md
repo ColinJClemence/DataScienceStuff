@@ -8,9 +8,9 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
 9-10 | [Morning Exercise][9-1A]                | [Morning Exercise][9-2A]                   | [Morning Exercise][9-3A]                | [Morning Exercise][9-4A]      | [Morning Exercise][9-5A]
 10-11:30 | [Github for Teams][9-1B]            | [Virtual Machine Installations for Hadoop][9-2AA] & [Visualization for Time Series][9-2B]      | [Intro to ARIMA Model][9-3B]      | [Tuning ARIMA Models][9-4B]   | [Time Series Recap][9-5B]
-11:30-1 | [Github for Teams Lab][9-1C]         | [Autocorrelation & Time Series Data][9-2C] | [Kaggle: Workshop][9-3E]     | [Kaggle: Workshop][9-4D]      | [Visualizing Time Series Group Lab][9-5C]
-2-3:30 | [Intro to Time Series Data][9-1D]     | [Autocorrelation & Time Series Data (Finance Lab)][9-2D] | [ARIMA Predictions Lab][9-3C]    |  [ARIMA Tuning Lab][9-4C]       | [Kaggle: Workshop][9-5D]
-3:30-5 | [Kaggle: Workshop][9-1E]        | [Outcomes: Resumes for Career Changers][9-2E]                   |  [Capstone Pt 3: Workshop][9-3D]         | [Kaggle: Workshop][9-4E]      | [Kaggle: Presentations][9-5E]
+11:30-1 | [Github for Teams Lab][9-1C]         | [Autocorrelation & Time Series Data][9-2C] | [ARIMA Predictions Lab][9-3C]    | [Kaggle: Workshop][9-4D]      | [Visualizing Time Series Group Lab][9-5C]
+2-3:30 | [Intro to Time Series Data][9-1D]     | [Autocorrelation & Time Series Data (Finance Lab)][9-2D] | [Intro to Map Reduce][9-3D]    |  [ARIMA Tuning Lab][9-4C]       | [Kaggle: Workshop][9-5D]
+3:30-5 | [Kaggle: Workshop][9-1E]        | [Outcomes: Resumes for Career Changers][9-2E]                   |  [Kaggle Workshop][9-3D]         | [Kaggle: Workshop][9-4E]      | [Kaggle: Presentations][9-5E]
 
 [9-2AA]: https://github.com/ga-students/DSI_SM_01/blob/master/curriculum/week-09/VM-big-data-setup.md
 
@@ -31,7 +31,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [9-3A]: #
 [9-3B]: 3.1-lesson
 [9-3C]: 3.2-lab-ARIMA-predictions-lab
-[9-3D]: #
+[9-3D]: 3.3-lesson-big-data-intro-map-reduce
 [9-3E]: #
 [9-3F]: ./instructor-contributions/
 
