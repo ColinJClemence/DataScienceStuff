@@ -360,7 +360,7 @@ cat <input-file> | python mapper.py | sort -k1,1 | python reducer.py
 ## Independent practice (20 min)
 
 Now that you have a basic word count set up in python, try making the following tweeks to the map reduce code: 
-*We'll take 5 minutes per exercise the convene and discuss the solution*
+*We'll take 5 minutes per exercise then we'll discuss the solution*
 
 Where do you make the requested changes below (i.e. mapper, reducer, terminal code)? What happens to the output after each line of code is added?
 
