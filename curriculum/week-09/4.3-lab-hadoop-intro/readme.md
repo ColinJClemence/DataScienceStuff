@@ -221,7 +221,7 @@ It will show you the content of the root folder in HDFS.
 Explore HDFS and describe the content of each folder it contains. You will need to use a combination of commands like:
 
     - ls
-    - cat
+    - cat  #if you see any text files
 
 <a name="guided-practice"></a>
 ## Exploring HDFS from the web interface (5 min)
@@ -288,6 +288,8 @@ First let's make sure that the scripts work by using the shell pipes we learned 
 
     $ cat data/project_gutenberg/pg84.txt | python scripts/mapper.py | sort -k1,1 | python scripts/reducer.py
 
+    Note that if you're running hadoop on the same data, you'll need to update the name of the output file. Hadoop doesn't allow you to overwrite data automatically.
+
 Great! They still work. Ok now let's do hadoop streaming MR:
 
     $ export STREAMING_JAR=/usr/local/lib/hadoop-2.7.2/share/hadoop/tools/lib/hadoop-streaming-2.7.2.jar
@@ -299,7 +301,6 @@ Great! They still work. Ok now let's do hadoop streaming MR:
       -reducer /home/vagrant/scripts/reducer.py \
       -input /user/vagrant/project_gutenberg/* \
       -output /user/vagrant/output_gutenberg
-
 
 Check the status of your MR job here:
 
@@ -314,7 +315,8 @@ http://10.211.55.101:50070/explorer.html#/user/vagrant/output_gutenberg
 
 You have learned how to spin up a local virtual machine running Hadoop and how to submit map reduce job flows to it! Congratulations.
 
-Go ahead and perform the map-reduce word count on the project gutenberg data using the Hadoop Jar used in exercise 3. You should get the list words with the counts as output. You can also save that list to a file and open it in Pandas to sort the words by the most frequent.
+1. add the code for word counts from yesterday's exercise, when you were running map reduce on one-node
+2. Outpu the list words with the counts as output. You can also save that list to a file and read it into Pandas to sort the words by the most frequent.
 
 ### ADDITIONAL RESOURCES
 
