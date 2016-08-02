@@ -129,8 +129,9 @@ The term Big Data refers to the latter case, where commodity hardware with unlim
 
 How does Hadoop and Map Reduce (explanined in the next few sections) relate to the data science process?
 
-[![](http://www.glennklockwood.com/data-intensive/hadoop/mapreduce-workflow.png)]
+![](http://www.glennklockwood.com/data-intensive/hadoop/mapreduce-workflow.png)
 
+![](http://hortonworks.com/wp-content/uploads/2015/10/spark-chart.jpg)
 
 ### Divide and Conquer
 
