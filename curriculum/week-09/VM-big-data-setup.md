@@ -25,7 +25,7 @@ All: Big data requires additional preparation. In order to complete the lessons 
         vagrant up
         vagrant ssh
         
-6. For more instructions on [configuring and running the Virtual Machine, see lesson 1.1](./1.2-lab-hadoop-lab/readme.md).
+6. For more instructions on [configuring and running the Virtual Machine, see lesson 1.1](./4.3-lab-hadoop-intro/readme.md).
 
 ## Troubleshooting
 
