@@ -10,14 +10,14 @@ All: Big data requires additional preparation. In order to complete the lessons 
 
 3. Have students download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
-- What is vagrant and why should I care?
-    - virtualize your workflow for databases, web servers, scripting: [one point of view](https://24ways.org/2014/what-is-vagrant-and-why-should-i-care/) 
-    - yet another way to express "cloud" computing
-    - open source with community library of files
-    - consistency
-    - portable between machines and teams
-
 4. Have students download and install [Vagrant](https://www.vagrantup.com/)
+5. 
+- *[What is vagrant and why should I care?](https://24ways.org/2014/what-is-vagrant-and-why-should-i-care/)* 
+    - Virtualize your workflow for databases, web servers, scripting
+    - Yet another way to express "cloud" computing
+    - Open source with community library of files, see [library](http://www.vagrantbox.es/)
+    - Consistency
+    - Portable between machines and teams
 
 5. Once they have all these installed, they can run the VM by doing:
 
@@ -25,7 +25,7 @@ All: Big data requires additional preparation. In order to complete the lessons 
         vagrant up
         vagrant ssh
         
-6. For more instructions on [configuring and running the Virtual Machine, see lesson 1.1](./1.2-lab/readme.md).
+6. For more instructions on [configuring and running the Virtual Machine, see lesson 1.1](./1.2-lab-hadoop-lab/readme.md).
 
 ## Troubleshooting
 
