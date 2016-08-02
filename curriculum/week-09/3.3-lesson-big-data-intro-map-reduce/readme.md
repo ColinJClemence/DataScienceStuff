@@ -27,7 +27,7 @@ Week 9 | Lesson 3.3
 - Prepare any specific materials
 - Provide students with additional resources
 
-### ADDITIONAL WEEK 10 PREP
+### ADDITIONAL WEEK 9-10 PREP
 This week requires additional prep in order to successfully run all lessons and labs provided:
 
 1. [Download and install Virtual Machine](../VM-installation.md).
@@ -124,6 +124,13 @@ Instead of one huge machine, what if we got a bunch of regular (commodity) machi
 - more I/O between machines
 
 The term Big Data refers to the latter case, where commodity hardware with unlimited scalability is used to solve highly parallelizable problems.
+
+### Context 
+
+How does Hadoop and Map Reduce (explanined in the next few sections) relate to the data science process?
+
+[![](http://www.glennklockwood.com/data-intensive/hadoop/mapreduce-workflow.png)]
+
 
 ### Divide and Conquer
 
