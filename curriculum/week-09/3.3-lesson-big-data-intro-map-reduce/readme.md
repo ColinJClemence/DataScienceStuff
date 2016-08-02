@@ -6,8 +6,8 @@ creator:
     city: SF
 ---
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Big Data
-Week 10 | Lesson 1.1
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Intro to Big Data - Focus on Map Reduce
+Week 9 | Lesson 3.3
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -49,7 +49,7 @@ This week requires additional prep in order to successfully run all lessons and 
 <a name="opening"></a>
 ## Opening (5 min)
 
-Congratulations! You've made it to Week 10! This is the last full week of new content, and you already know a ton! Now it's time to think about some major trends in the field, including common tools and problems that data scientists may encounter. It is also time to take the tools you've learned to a new level by scaling up the size of datasets you can tackle. Today we start talking about Big Data!
+Congratulations! You're in Week 9! Now it's time to think about some major trends in the field, including common tools and problems that data scientists may encounter. It is also time to take the tools you've learned to a new level by scaling up the size of datasets you can tackle. Today we start talking about Big Data!
 
 
 **Check:** what do you think Big Data is?
