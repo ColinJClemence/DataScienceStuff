@@ -84,7 +84,7 @@ Here are some examples of Tableau heatmaps. You can make yours as robust as you'
 
 ## Additional Resources
 
-- [Tableau Time Series Analysis](www.tableau.com/stories/topic/time-series-analysis)
+- [Tableau Time Series Analysis](https://www.tableau.com/stories/topic/time-series-analysis)
 - [Time Series & Time Pattern Displays In Tableau](https://canvas.uw.edu/courses/891359/assignments/2378170?module_item_id=5158795)
 - [Geographic Roles in Tableau](http://onlinehelp.tableau.com/current/pro/online/windows/en-us/help.htm#maps_geographicroles.html)
 - [Heatmaps in Tableau](http://ksrowell.com/blog-visualizing-data/2013/04/10/how-to-create-a-geographical-heat-map/)
