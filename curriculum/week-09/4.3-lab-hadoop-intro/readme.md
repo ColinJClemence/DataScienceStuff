@@ -172,6 +172,8 @@ and the following services will be started:
 
 Let's have a look at some of the services available in this virtual machine.
 
+Image for the stack:
+![](http://hortonworks.com/wp-content/uploads/2015/10/spark-chart.jpg)
 
 ### Hadoop
 Apache Hadoop is an open-source software framework for distributed storage and distributed processing of very large data sets on computer clusters built from commodity hardware. All the modules in Hadoop are designed with a fundamental assumption that hardware failures are common and should be automatically handled by the framework.
