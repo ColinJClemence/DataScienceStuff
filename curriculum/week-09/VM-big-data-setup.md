@@ -10,6 +10,13 @@ All: Big data requires additional preparation. In order to complete the lessons 
 
 3. Have students download and install [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
+- What is vagrant and why should I care?
+    - virtualize your workflow for databases, web servers, scripting: [one point of view](https://24ways.org/2014/what-is-vagrant-and-why-should-i-care/) 
+    - yet another way to express "cloud" computing
+    - open source with community library of files
+    - consistency
+    - portable between machines and teams
+
 4. Have students download and install [Vagrant](https://www.vagrantup.com/)
 
 5. Once they have all these installed, they can run the VM by doing:
