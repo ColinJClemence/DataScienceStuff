@@ -27,7 +27,7 @@ Week 9 | Lesson 3.3
 - Prepare any specific materials
 - Provide students with additional resources
 
-### ADDITIONAL WEEK 10 PREP
+### ADDITIONAL WEEK 9-10 PREP
 This week requires additional prep in order to successfully run all lessons and labs provided:
 
 1. [Download and install Virtual Machine](../VM-installation.md).
@@ -124,6 +124,14 @@ Instead of one huge machine, what if we got a bunch of regular (commodity) machi
 - more I/O between machines
 
 The term Big Data refers to the latter case, where commodity hardware with unlimited scalability is used to solve highly parallelizable problems.
+
+### Context 
+
+How does Hadoop and Map Reduce (explanined in the next few sections) relate to the data science process?
+
+![](http://www.glennklockwood.com/data-intensive/hadoop/mapreduce-workflow.png)
+
+![](http://hortonworks.com/wp-content/uploads/2015/10/spark-chart.jpg)
 
 ### Divide and Conquer
 
@@ -350,10 +358,20 @@ cat <input-file> | python mapper.py | sort -k1,1 | python reducer.py
 ![map reduce word count](./assets/images/word_count_dataflow.jpg)
 
 <a name="ind-practice"></a>
-## Independent practice (15 min)
+## Independent practice (20 min)
 
-Now that you have a basic word count set up in python, try doing some of the following:
+Now that you have a basic word count set up in python, try making the following tweeks to the map reduce code: 
+*We'll take 5 minutes per exercise then we'll discuss the solution*
 
+Where do you make the requested changes below (i.e. mapper, reducer, terminal code)? What happens to the output after each line of code is added?
+
+1. Lower the words in the file. 
+2. Remove punctuation in the file. 
+3. Remove numbers in the file. 
+4. Sort output by name key in reverse order. 
+5. Retreive the top 15 most frequent words in this file. 
+
+BONUS:
 - process a much larger text file (you can download it from internet)
 > for example a page from wikipedia or a blog article. If you're really ambitious you can take books from project gutemberg.
 - try to see how the execution time scales with file size
@@ -373,6 +391,8 @@ In this class we have learned about Big Data and map-reduce. This is an algorith
 ### Prep for next class:
 In preparation for the next class students shoud [Download and install Virtual Machine](../VM-installation.md).
     - Note: This is a big file. Please reserve time to download and troubleshoot installation.
+
+**Review commands in terminal / linux: [CLI Learn Code the Hardway](http://cli.learncodethehardway.org/bash_cheat_sheet.pdf)**
 
 ### ADDITIONAL RESOURCES
 
