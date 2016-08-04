@@ -274,7 +274,16 @@ Hadoop also offers a streaming interface. The streaming interface will process t
 
 Let's use the same python scripts to run a hadoop streaming map-reduce. We have pre-copied those scripts to your VM home folder, so that they are easy to access.
 
-First of all let's copy some data to hdfs. The data folder contains a folder called `project_gutenberg`. Let's copy that to hadoop:
+Great! Now we should pipe all the data contained in that folder through our scripts with hadoop streaming.
+First let's make sure that the scripts work by using the shell pipes we learned in the last lecture.
+
+**You do** Copy edited scripts from yesterday into the scripts folder. Run below command for original and updated code for mappers and reducers:
+
+    $ cat data/project_gutenberg/pg84.txt | python scripts/mapper.py | sort -k1,1 | python scripts/reducer.py
+
+    Note that if you're running hadoop on the same data, you'll need to update the name of the output file. Hadoop doesn't allow you to overwrite data automatically.
+
+Then let's copy some data to hdfs. The data folder contains a folder called `project_gutenberg`. Let's copy that to hadoop:
 
     $ hadoop fs -copyFromLocal data/project_gutenberg project_gutenberg
     $ hadoop fs -copyFromLocal scripts scripts
@@ -282,13 +291,6 @@ First of all let's copy some data to hdfs. The data folder contains a folder cal
 Go ahead and check that it's there:
 
 http://10.211.55.101:50070/explorer.html#/user/vagrant
-
-Great! Now we should pipe all the data contained in that folder through our scripts with hadoop streaming.
-First let's make sure that the scripts work by using the shell pipes we learned in the last lecture.
-
-    $ cat data/project_gutenberg/pg84.txt | python scripts/mapper.py | sort -k1,1 | python scripts/reducer.py
-
-    Note that if you're running hadoop on the same data, you'll need to update the name of the output file. Hadoop doesn't allow you to overwrite data automatically.
 
 Great! They still work. Ok now let's do hadoop streaming MR:
 
@@ -315,7 +317,7 @@ http://10.211.55.101:50070/explorer.html#/user/vagrant/output_gutenberg
 
 You have learned how to spin up a local virtual machine running Hadoop and how to submit map reduce job flows to it! Congratulations.
 
-One last thing, import the code for filtering words from yesterday's exercise/lecture, then run this updated map-reduce job on hadoop.
+One last thing, run code from yesterday from hadoop to filter punctuations & numbers words from our word counts.
 
 ### ADDITIONAL RESOURCES
 
