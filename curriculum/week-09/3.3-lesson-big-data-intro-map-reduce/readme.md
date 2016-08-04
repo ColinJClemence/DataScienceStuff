@@ -179,22 +179,22 @@ To understand map reduce one needs to always keep in mind that data is flowing t
 Let's perform a simple map-reduce in the class, let's find the 10 most common words in the paragraph below.
 
     1:  MapReduce is a programming model for large-scale distributed data processing.
-    3:  It is inspired by the map function and the reduce function of the functional
-    4:  programming languages such as Lisp, Haskell, or Python. One of the most
-    5:  important features of MapReduce is that it allows us to hide the low-level
-    6:  implementation such as message passing or synchronization from users and
-    7:  allows to split a problem into many partitions. This is a great way to make
-    8:  trivial parallelization of data processing without any need for
-    9:  communication between the partitions.
-    10: MapReduce became main stream because of Apache Hadoop, which is an open
-    11: source framework that was derived from Google's MapReduce paper.
-    12: MapReduce allows us to process massive amounts of data in a distributed
-    13: cluster. In fact, there are many implementations of the MapReduce
-    14: programming model. Some of them are shown in the following list. It is
-    15: important to say that MapReduce is not an algorithm; it is just a part
-    16: of a high-performance infrastructure that provides a lightweight
-    17: way to run a program in a lot of parallel machines.
-    18:                from: Practical Data Analysis, Hector Cuesta, 2013
+    2:  It is inspired by the map function and the reduce function of the functional
+    3:  programming languages such as Lisp, Haskell, or Python. One of the most
+    4:  important features of MapReduce is that it allows us to hide the low-level
+    5:  implementation such as message passing or synchronization from users and
+    6:  allows to split a problem into many partitions. This is a great way to make
+    7:  trivial parallelization of data processing without any need for
+    8:  communication between the partitions.
+    9: MapReduce became main stream because of Apache Hadoop, which is an open
+    10: source framework that was derived from Google's MapReduce paper.
+    11: MapReduce allows us to process massive amounts of data in a distributed
+    12: cluster. In fact, there are many implementations of the MapReduce
+    13: programming model. Some of them are shown in the following list. It is
+    14: important to say that MapReduce is not an algorithm; it is just a part
+    15: of a high-performance infrastructure that provides a lightweight
+    16: way to run a program in a lot of parallel machines.
+    17:                from: Practical Data Analysis, Hector Cuesta, 2013
 
 ### Simple Map reduce
 

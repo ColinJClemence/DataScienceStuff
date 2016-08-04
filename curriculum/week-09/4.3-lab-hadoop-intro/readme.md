@@ -315,8 +315,7 @@ http://10.211.55.101:50070/explorer.html#/user/vagrant/output_gutenberg
 
 You have learned how to spin up a local virtual machine running Hadoop and how to submit map reduce job flows to it! Congratulations.
 
-1. add the code for word counts from yesterday's exercise, when you were running map reduce on one-node
-2. Outpu the list words with the counts as output. You can also save that list to a file and read it into Pandas to sort the words by the most frequent.
+One last thing, import the code for filtering words from yesterday's exercise/lecture, then run this updated map-reduce job on hadoop.
 
 ### ADDITIONAL RESOURCES
 
