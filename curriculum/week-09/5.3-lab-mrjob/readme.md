@@ -47,9 +47,9 @@ This lab will teach you to use [MRJob](https://github.com/Yelp/mrjob), a very po
 
 #### Starter code
 
-[Starter Code](./assets/code/starter-code/starter-code.ipynb)
+[Starter Code](./code/starter-code/starter-code.ipynb)
 
-> [Solution Code](./assets/code/solution-code/solution-code.ipynb)
+> [Solution Code](./code/solution-code/solution-code.ipynb)
 
 
 Additional Resources
