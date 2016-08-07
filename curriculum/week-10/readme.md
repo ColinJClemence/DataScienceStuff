@@ -14,11 +14,11 @@ This is a summary of the materials provided for Week 10 of the Data Science Imme
 
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
-9-10 | [Morning Exercise][10-1A]             | [Morning Exercise][10-2A]           | [(Outcomes)][10-3A]         | [Morning Exercise][10-4A]             | [(Reflection)][10-5A]
-10-11:30 |[AWS: HDFS, HUE, & EMR][10-2C]        | [Intro to Spark][10-3B]             |  [Big O Notation] |    | [Big Data Review: Case Study][10-5B]
-11:30-1 | [AWS + Hive Lab][10-2D] & [Hive Wordcount Lab][10-1E]    | [Spark Lab 1][10-3C]      | [Database Design: Case Study][10-4B]       | [Group Project: Workshop][10-4D]   | [Group Project: Workshop][10-5C]
-2-3:30 | [Map Reduce & NLTK]         | [Spark Lab 2][10-3D]         | [Spark Lab 2][10-3D]         | [Group Project: Setup Data][10-4C]     | [Group Project: Workshop][10-5D]
-3:30-5 | [Capstone Projects]    |  [Outcomes 4-5:15pm]       | [Spark: Case Study][10-3E]   [Big Data: Case Study][10-2E]   | [Group Project: Workshop][10-4E]     | [Group Project: Presentations][10-5E]
+9-10 | [Morning Exercise][10-1A]             | [Morning Exercise][10-2A]           | [(Outcomes)][10-3A]         | [Group Communication & Skills Workshop]             | [(Reflection)][10-5A]
+10-11:30 |[AWS: HDFS, HUE, & EMR][10-2C]        | [Intro to Spark][10-3B]             |  [Big O Notation] | [A/B Testing Lesson & Lab]   | [Spark: Case Study][10-3E] 
+11:30-1 | [AWS + Hive Lab][10-2D]  & [Hive Wordcount Lab][10-1E]   | [Spark Lab 1][10-3C]      | [Database Design: Case Study][10-4B]       | [Group Project: Workshop][10-5D]  | [Group Project: Workshop][10-5C] or [Review]
+2-3:30 | [Map Reduce & NLTK]         | [Spark Lab 2][10-3D]         | [Group Project: Setup Data][10-4C]       |  [Recommendation Systems]    | [Group Project: Workshop][10-5D]
+3:30-5 | [Capstone Projects]    |  [Outcomes 4-5:15pm]       | [Genism]|  abc  | [Big Data: Case Study][10-2E] [Big Data Review: Case Study][10-5B]    | [Student Presentations][10-5E]
 
 
 [10-1A]: ./instructor-contributions/
