@@ -27,3 +27,5 @@ random_file.json
 #files
 .xls
 .xlsx
+chrome_history.json
+web_history.tsv
