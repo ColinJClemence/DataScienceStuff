@@ -6,11 +6,11 @@ This is a summary of the materials provided for Week 10 of the Data Science Imme
 
 > You will want to familiarize yourself with them and budget for time to complete / review the following installation & signup details with students before teaching this week's materials.
 
-> 1. Students will need to install a custom VM to run introductory materials. [See instructions here](./VM-installation.md).
+> 1. Students will need to install a custom VM to run introductory materials. [See instructions here](https://github.com/ga-students/DSI_SM_01/blob/master/curriculum/week-09/VM-big-data-setup.md).
 
-> 2. Instructors will need to send students individual URLs for them to sign up/access their AWS credits. [See instructions here](./AWS-instructions.md).
+> 2. Instructors will need to send students individual URLs for them to sign up/access their AWS credits. [See instructions here](https://github.com/ga-students/DSI_SM_01/blob/master/curriculum/week-09/VM-big-data-setup.md).
 
-## Week 10: Intro to Big Data
+## Week 10: Big Data & Case Studies
 
 Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
  --- | --- | --- | --- | ---  | ---
