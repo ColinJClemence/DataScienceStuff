@@ -34,6 +34,10 @@ Note: This lab requiress additional prep in order to run successfully:
 1. [Sign up for AWS Account & Credits](../AWS-instructions.md).
     - Note: Instructors will need to distribute individual URLs for the signup form. See linked instructions.
 
+2. Download AWS command line tools in ec2 or terminal: 
+- [Install AWS tools](http://docs.aws.amazon.com/cli/latest/userguide/installing.html#install-bundle-other-os)
+- [Configure AWS CLI](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+
 
 ### LESSON GUIDE
 | TIMING  | TYPE  | TOPIC  |
