@@ -23,7 +23,7 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [10-1AA]: 1.2-lesson-AWS-EMR
 [10-1BB]: 1.3-lab-Hive-Queries
 [10-1CC]: 1.4-lesson-Hive
-[10-1DD]: 
+[10-1DD]: ./instructor-contributions
 
 [10-3A]: #
 [10-3B]: 2.1-lesson-Spark-Intro
