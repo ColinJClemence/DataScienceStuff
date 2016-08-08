@@ -7,7 +7,7 @@ creator:
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) AWS Elastic Map Reduce
-Week 10 | Lesson 2.2
+Week 10 | Lesson 1.2
 
 ### LEARNING OBJECTIVES
 *After this lesson, you will be able to:*
@@ -50,7 +50,7 @@ Note: This lab requiress additional prep in order to run successfully:
 <a name="opening"></a>
 ## Opening (5 min)
 
-In less 2.1 we have discovered 2 very important AWS services: EC2 and S3. Today we will see how to spin up a compute cluster on Amazon. 
+In the past few weeks we have discovered 2 very important AWS services: EC2 and S3. Today we will see how to spin up a compute cluster on Amazon. 
 
 **Check:** What is a cluster?
 > Answer: a cluster is a set of several computers communicating with one another and working together to solve a problem.
