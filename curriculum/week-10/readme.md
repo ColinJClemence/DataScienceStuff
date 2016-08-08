@@ -30,14 +30,14 @@ Session Time | Day 1 | Day 2 | Day 3 | Day 4 | Day 5
 [10-3C]: 2.2-lab-Spark-Lab-1
 [10-3D]: 2.3-lab-Spark-Lab-2
 [10-3E]: 2.4-lesson-Spark-Case-Study
-[10-3F]: 
+[10-3F]: group-lab
 
-[10-4A]: 
+[10-4A]: group-lab
 [10-4B]: 3.1-lesson-database-design-study
 [10-4C]: group-lab
-[10-4D]: 
-[10-4E]:
-[10-4F]: 
+[10-4D]: group-lab
+[10-4E]:group-lab
+[10-4F]: group-lab
 [10-4ZZ]: 5.1-lesson-big-data-review-case-study
 
 [10-5A]: ../recurring-materials/reflection
