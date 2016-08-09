@@ -76,6 +76,17 @@ destinations.
 Conviva uses Spark to reduce customer churn by optimizing video streams and managing live video traffic—thus maintaining 
 a consistently smooth, high quality viewing experience.
 
+**Key:** As more and more organizations recognize the benefits of moving from batch processing to real time data analysis, Apache Spark is positioned to experience wide and rapid adoption across a vast array of industries
+
+[Source](https://www.qubole.com/blog/big-data/apache-spark-use-cases/)
+
+#When NOT to use Spark
+
+Even though it is versatile, that doesn’t necessarily mean Apache Spark’s in-memory capabilities are the best fit for all use cases. 
+- More specifically, Spark was not designed as a multi-user environment. 
+- Spark users are required to know whether the memory they have access to is sufficient for a dataset. Not great at coordination btween multiple users, where Apache Hive is set up for large, batch projects.
+- Spark is growing and developing, not necessarily the norm in organizations today, so hiring and training can be an obstacle
+
 [Source](https://www.qubole.com/blog/big-data/apache-spark-use-cases/)
 
 <a name="introduction"></a>
