@@ -61,9 +61,36 @@ Today will be dedicated to Spark. Spark has brought a revolution in Big Data in 
 **Check:** what limitations have you encountered when processing data with Hadoop?
 > Mainly performance. It takes a long time to perform a map-reduce job, which makes it really hard to experiment and iterate.
 
+## Let's Start with a few case study on who uses Spark? 
+
+- __Uber:__ Every day this multinational online taxi dispatch company gathers terabytes of event data from its mobile users. 
+By using Kafka, Spark Streaming, and HDFS, to build a continuous ETL pipeline, Uber can convert raw unstructured event data into 
+structured data as it is collected, and then use it for further and more complex analytics.
+
+- __Pinterest:__ Through a similar ETL pipeline, Pinterest can leverage Spark Streaming to gain immediate insight into how users 
+all over the world are engaging with Pins—in real time. As a result, Pinterest can make more relevant recommendations as people 
+navigate the site and see related Pins to help them select recipes, determine which products to buy, or plan trips to various 
+destinations.
+
+- __Conviva:__ Averaging about 4 million video feeds per month, this streaming video company is second only to YouTube. 
+Conviva uses Spark to reduce customer churn by optimizing video streams and managing live video traffic—thus maintaining 
+a consistently smooth, high quality viewing experience.
+
+**Key:** As more and more organizations recognize the benefits of moving from batch processing to real time data analysis, Apache Spark is positioned to experience wide and rapid adoption across a vast array of industries
+
+[Source](https://www.qubole.com/blog/big-data/apache-spark-use-cases/)
+
+#When NOT to use Spark
+
+Even though it is versatile, that doesn’t necessarily mean Apache Spark’s in-memory capabilities are the best fit for all use cases. 
+- More specifically, Spark was not designed as a multi-user environment. 
+- Spark users are required to know whether the memory they have access to is sufficient for a dataset. Not great at coordination btween multiple users, where Apache Hive is set up for large, batch projects.
+- Spark is growing and developing, not necessarily the norm in organizations today, so hiring and training can be an obstacle
+
+[Source](https://www.qubole.com/blog/big-data/apache-spark-use-cases/)
+
 <a name="introduction"></a>
 ## Intro to Spark (20 min)
-
 
 Apache Spark is an open source cluster computing framework. Originally developed at the University of California, Berkeley's AMPLab, the Spark codebase was later donated to the Apache Software Foundation that has maintained it since. Spark provides an interface for programming entire clusters with implicit data parallelism and fault-tolerance.
 

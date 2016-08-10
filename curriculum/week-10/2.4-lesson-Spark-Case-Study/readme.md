@@ -46,9 +46,9 @@ This is going to be a highly interactive class. We'll work in 3 groups and we wi
 
 Here are 3 articles detailing case studies for Spark application:
 
-- [Article 1](https://www.qubole.com/blog/big-data/apache-spark-use-cases/)
-- [Article 2](http://www.datanami.com/2014/03/06/apache_spark_3_real-world_use_cases/)
-- [Article 3](https://www.lightbend.com/resources/case-studies-and-stories/unicredit-powers-fast-data-customer-insight-platform-with-apache-spark-scala-akka-and-play)
+- [Article 1 - Genome Sequencing](https://databricks.com/blog/2016/05/24/genome-sequencing-in-a-nutshell.html)
+- [Article 2 - Conviva and Clear Story](http://www.datanami.com/2014/03/06/apache_spark_3_real-world_use_cases/)
+- [Article 3 - UniCredit](https://www.lightbend.com/resources/case-studies-and-stories/unicredit-powers-fast-data-customer-insight-platform-with-apache-spark-scala-akka-and-play)
 
 There is one article for each group. In this first phase each of you will work independently.
 
