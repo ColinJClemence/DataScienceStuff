@@ -110,7 +110,7 @@ It's finally time to present your results to the rest of the class! Groups will 
 > - Practice using the big data tools they have learned in this week.
 > Make sure that both these points are achieved in the final presentation.
 
-Tips for moving data to and from different places:
+## Tips for moving data to and from different places:
 How to transition data from one place to another?
 
 1. Old fashion cutting and pasting! 
