@@ -3,8 +3,8 @@ title: Big Data Group Lab
 type: lab
 duration: "1:25"
 creator:
-    name: Francesco Mosconi
-    city: SF
+    name: Francesco Mosconi & Pauline Chow
+    city: SF & LA
 ---
 
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Big Data Group Lab
@@ -109,3 +109,42 @@ It's finally time to present your results to the rest of the class! Groups will 
 > - Practice approaching a large dataset and decomposing a large problem in small steps.
 > - Practice using the big data tools they have learned in this week.
 > Make sure that both these points are achieved in the final presentation.
+
+Tips for moving data to and from different places:
+How to transition data from one place to another?
+
+1. Old fashion cutting and pasting! 
+
+2. ipython notebook - sdk for python - boto3
+	[sdk for python](https://aws.amazon.com/sdk-for-python/)
+	[boto - python package](https://boto3.readthedocs.io/en/latest/guide/resources.html#actions)
+
+3. Copying within an environment (i.e. within your localhost)?
+	suggested commands in terminal or linux bash
+	use `man cp` and `man mv` to learn more
+	$ cp 
+	$ mv
+
+4. Copying between virtual environments?
+ 	[Docs & Hints](http://www.binarytides.com/linux-scp-command/)
+ 	[More examples](https://kb.iu.edu/d/agye)
+ 	$ scp
+ 	$ scp [options] username1@source_host:directory1/filename1 username2@destination_host:directory2/filename2
+
+	or try piping and copying, below will copy 5000 rows of filename
+	ssh user@host 'tail -c 5000 FILENAME' > DESTINATION 
+	
+	or try `wget` or `curl`
+
+5. AWS CLI 
+	a. remember to install AWSCLI in your instance
+		- install python of your choice 
+		- sudo pip install awscli
+	b. access s3 from your command line, for example: 
+	   $ aws s3 cp file.py s3://my-first-backup-bucket/
+	   [s3 cli tutorial](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+
+6. Spark
+	- [integrated system with s3](https://databricks.com/wp-content/uploads/2015/08/Databricks-how-to-data-import.pdf)
+	- upload data as spark table
+
