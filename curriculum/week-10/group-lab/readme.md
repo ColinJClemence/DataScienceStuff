@@ -116,35 +116,44 @@ How to transition data from one place to another?
 1. Old fashion cutting and pasting! 
 
 2. ipython notebook - sdk for python - boto3
-	[sdk for python](https://aws.amazon.com/sdk-for-python/)
-	[boto - python package](https://boto3.readthedocs.io/en/latest/guide/resources.html#actions)
+
+	- [sdk for python](https://aws.amazon.com/sdk-for-python/)
+	- [boto - python package](https://boto3.readthedocs.io/en/latest/guide/resources.html#actions)
 
 3. Copying within an environment (i.e. within your localhost)?
-	suggested commands in terminal or linux bash
-	use `man cp` and `man mv` to learn more
-	$ cp 
-	$ mv
+
+	- suggested commands in terminal or linux bash
+	- use `man cp` and `man mv` to learn more
+	- `$ cp` 
+	- `$ mv`
 
 4. Copying between virtual environments?
- 	[Docs & Hints](http://www.binarytides.com/linux-scp-command/)
- 	[More examples](https://kb.iu.edu/d/agye)
- 	$ scp
- 	$ scp [options] username1@source_host:directory1/filename1 username2@destination_host:directory2/filename2
+
+ 	- [Docs & Hints](http://www.binarytides.com/linux-scp-command/)
+ 	- [More examples](https://kb.iu.edu/d/agye)
+ 	- `$ scp`
+ 	- `$ scp [options] username1@source_host:directory1/filename1 username2@destination_host:directory2/filename2`
 
 	or try piping and copying, below will copy 5000 rows of filename
-	ssh user@host 'tail -c 5000 FILENAME' > DESTINATION 
+	`$ssh user@host 'tail -c 5000 FILENAME' > DESTINATION` 
 	
 	or try `wget` or `curl`
 
 5. AWS CLI 
-	a. remember to install AWSCLI in your instance
+
+	- remember to install AWSCLI in your instance
+	
 		- install python of your choice 
 		- sudo pip install awscli
-	b. access s3 from your command line, for example: 
-	   $ aws s3 cp file.py s3://my-first-backup-bucket/
-	   [s3 cli tutorial](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
+	
+	- access s3 from your command line, for example: 
+	
+	   - `$ aws s3 cp file.py s3://my-first-backup-bucket/`
+	   - [s3 cli tutorial](https://aws.amazon.com/getting-started/tutorials/backup-to-s3-cli/)
 
 6. Spark
 	- [integrated system with s3](https://databricks.com/wp-content/uploads/2015/08/Databricks-how-to-data-import.pdf)
 	- upload data as spark table
+
+7. [CyberDuck](https://cyberduck.io/?l=en) - GUI to interact with AWS
 
