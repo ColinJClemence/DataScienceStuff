@@ -57,8 +57,8 @@ In order to run the starter code on the VM, you will need to upload it using the
 
 #### Starter code
 
-[Starter Code](./assets/code/starter-code/starter-code.ipynb)
-> [Solution Code](./assets/code/solution-code/solution-code.ipynb)
+[Starter Code](./code/starter-code/starter-code.ipynb)
+> [Solution Code](./code/solution-code/solution-code.ipynb)
 
 ### Additional Resources
 
